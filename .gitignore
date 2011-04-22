@@ -1,0 +1,11 @@
+*~
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.ent
+*.swp
+/EBooks.pdf
+
