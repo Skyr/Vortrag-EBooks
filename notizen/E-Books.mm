@@ -1,6 +1,6 @@
-<map version="0.8.1">
+<map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1303468075098" ID="Freemind_Link_1032927763" MODIFIED="1303468455163" STYLE="fork" TEXT="E-Books">
+<node CREATED="1303468075098" ID="Freemind_Link_1032927763" MODIFIED="1304454948409" STYLE="fork" TEXT="E-Books">
 <node COLOR="#669900" CREATED="1303468111079" HGAP="27" ID="_" MODIFIED="1303468395766" POSITION="right" TEXT="Hardware/Technologien" VSHIFT="-37">
 <icon BUILTIN="full-1"/>
 <node CREATED="1304026582021" ID="Freemind_Link_467451108" MODIFIED="1304026585051" TEXT="Display">
@@ -45,7 +45,7 @@
 </node>
 </node>
 <node CREATED="1303468510541" ID="Freemind_Link_1382283166" MODIFIED="1303468514310" POSITION="left" TEXT="Linksammlung">
-<node CREATED="1304011449046" ID="Freemind_Link_1849124721" LINK="http://yro.slashdot.org/story/11/02/14/1848251/E-Book-Lending-Stands-Up-To-Corporate-Mongering" MODIFIED="1304011449046" TEXT="yro.slashdot.org &gt; Story &gt; 11 &gt; 02 &gt; 14 &gt; 1848251 &gt; E-Book-Lending-Stands-Up-To-Corporate-Mongering"/>
+<node CREATED="1304011449046" ID="Freemind_Link_1849124721" LINK="http://yro.slashdot.org/story/11/02/14/1848251/E-Book-Lending-Stands-Up-To-Corporate-Mongering" MODIFIED="1304454968159" TEXT="yro.slashdot.org &gt; Story &gt; 11 &gt; 02 &gt; 14 &gt; 1848251 &gt; E-Book-Lending-Stands-Up-To-Corporate-Mongering"/>
 <node CREATED="1304011454259" LINK="http://www.archive.org/post/349420/in-library-ebook-lending-program-launched" MODIFIED="1304011454259" TEXT="archive.org &gt; Post &gt; 349420 &gt; In-library-ebook-lending-program-launched"/>
 <node CREATED="1304011539208" LINK="http://www.buchwissenschaft.phil.uni-erlangen.de/forschung/publikationen/Kraus.pdf" MODIFIED="1304011539208" TEXT="buchwissenschaft.phil.uni-erlangen.de &gt; Forschung &gt; Publikationen &gt; Kraus"/>
 <node CREATED="1304011693949" ID="Freemind_Link_1883572430" LINK="http://www.netzpolitik.org/2011/grundrechte-fur-ebook-leser/" MODIFIED="1304011693949" TEXT="netzpolitik.org &gt; 2011 &gt; Grundrechte-fur-ebook-leser"/>
@@ -69,6 +69,26 @@
 <node CREATED="1304011412091" ID="Freemind_Link_112617521" LINK="http://www.adobe.com/products/contentserver/" MODIFIED="1304011412091" TEXT="adobe.com &gt; Products &gt; Contentserver"/>
 <node CREATED="1304011661726" LINK="http://i-u2665-cabbages.blogspot.com/2009/02/circumventing-adobe-adept-drm-for-epub.html" MODIFIED="1304011661726" TEXT="i-u2665-cabbages.blogspot.com &gt; 2009 &gt; 02 &gt; Circumventing-adobe-adept-drm-for-epub"/>
 <node CREATED="1304011687508" ID="Freemind_Link_990447673" LINK="http://radar.oreilly.com/2011/04/drm-airport-security.html" MODIFIED="1304011687508" TEXT="radar.oreilly.com &gt; 2011 &gt; 04 &gt; Drm-airport-security"/>
+</node>
+</node>
+<node CREATED="1304454949478" ID="ID_649213152" MODIFIED="1304454973246" POSITION="right" TEXT="Zukunft">
+<icon BUILTIN="full-5"/>
+<node CREATED="1304455093727" ID="ID_875194003" MODIFIED="1304455100903" TEXT="Erste Anwendungen">
+<node CREATED="1304455102086" ID="ID_223796388" MODIFIED="1304455116630" TEXT="alles, was man nur tempor&#xe4;r auf Papier braucht (techn. Doku, etc.)"/>
+<node CREATED="1304455123312" ID="ID_674112293" MODIFIED="1304455125291" TEXT="Romane"/>
+<node CREATED="1304455126443" ID="ID_1381181540" MODIFIED="1304455128069" TEXT="Fachb&#xfc;cher"/>
+</node>
+<node CREATED="1304455005931" ID="ID_1416053750" MODIFIED="1304455061288" TEXT="ePub + RSS = digitales Zeitschriften-Abo?"/>
+<node CREATED="1304455014687" ID="ID_1027020665" MODIFIED="1304455048965" TEXT="Fachzeitungen">
+<node CREATED="1304455027940" ID="ID_1060153952" MODIFIED="1304455035210" TEXT="PragProg Magazin"/>
+</node>
+<node CREATED="1304455050367" ID="ID_526588649" MODIFIED="1304455053022" TEXT="Tageszeitungen"/>
+<node CREATED="1304455062815" ID="ID_1954948488" MODIFIED="1304455078966" TEXT="Aggregation einer pers&#xf6;nlichen Tageszeitung (z.B. aus RSS-Feeds)"/>
+<node CREATED="1304455183193" FOLDED="true" ID="ID_532912972" MODIFIED="1304455346398" TEXT="Weitere Demokratisierung des B&#xfc;chermarktes?">
+<node CREATED="1304455210030" ID="ID_618514485" MODIFIED="1304455222767" TEXT="Buchdruck: Verleger suchen, Aufwand"/>
+<node CREATED="1304455226012" ID="ID_1239277275" MODIFIED="1304455236945" TEXT="Spezialisierte Verlage (z.B. f&#xfc;r Promotionen)"/>
+<node CREATED="1304455197141" ID="ID_965101072" MODIFIED="1304455245647" TEXT="&quot;Print on Demand&quot;-Dienste"/>
+<node CREATED="1304455254173" ID="ID_1723322212" MODIFIED="1304455261310" TEXT="Verkauf von eBooks"/>
 </node>
 </node>
 </node>
