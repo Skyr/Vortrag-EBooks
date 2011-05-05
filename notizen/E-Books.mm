@@ -156,6 +156,23 @@
 <node CREATED="1304543322856" ID="ID_422367000" MODIFIED="1304543325688" TEXT="container.xml">
 <node CREATED="1304543337805" ID="ID_595911266" MODIFIED="1304543387059" TEXT="Container-Datei, enth&#xe4;lt Referenz auf OPF-Datei (&quot;Spine&quot;)"/>
 </node>
+<node CREATED="1304595720380" ID="ID_1570359700" MODIFIED="1304595727001" TEXT="signatures.xml (optional)">
+<node CREATED="1304595791317" ID="ID_664754970" MODIFIED="1304595859055" TEXT="Gem&#xe4;&#xdf; w3c recommendation XML Signature">
+<node CREATED="1304595859664" ID="ID_1428585689" LINK="http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/" MODIFIED="1304595859664" TEXT="w3.org &gt; TR &gt; 2002 &gt; REC-xmldsig-core-20020212"/>
+</node>
+</node>
+<node CREATED="1304595909869" ID="ID_1689449289" MODIFIED="1304595913974" TEXT="encryption.xml (optional)">
+<node CREATED="1304595983525" ID="ID_1790526975" MODIFIED="1304595994000" TEXT="Gema&#xdf; w3c recommendation XML Encryption Syntax and Processing">
+<node CREATED="1304596000235" ID="ID_1878904325" LINK="http://www.w3.org/TR/2002/REC-xmlenc-core-20021210/" MODIFIED="1304596000235" TEXT="w3.org &gt; TR &gt; 2002 &gt; REC-xmlenc-core-20021210"/>
+</node>
+<node CREATED="1304596072151" ID="ID_914050686" MODIFIED="1304596075856" TEXT="Nie verschl&#xfc;sselt">
+<node CREATED="1304596077158" ID="ID_1929863575" MODIFIED="1304596090318" TEXT="mimetype, epub root file (opf-Datei)"/>
+<node CREATED="1304596091727" ID="ID_1685787761" MODIFIED="1304596100453" TEXT="(Meisten?) Daten in META-INF"/>
+</node>
+</node>
+<node CREATED="1304596130472" ID="ID_344069752" MODIFIED="1304596134482" TEXT="rights.xml (optional)">
+<node CREATED="1304596233294" ID="ID_553677912" MODIFIED="1304596245001" TEXT="Keine Spezifikation (au&#xdf;er well-formed XML)"/>
+</node>
 </node>
 </node>
 </node>
