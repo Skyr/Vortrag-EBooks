@@ -1,7 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1303468075098" ID="Freemind_Link_1032927763" MODIFIED="1304454948409" STYLE="fork" TEXT="E-Books">
-<node COLOR="#669900" CREATED="1303468111079" FOLDED="true" HGAP="27" ID="_" MODIFIED="1304533193280" POSITION="right" TEXT="Hardware/Technologien" VSHIFT="-37">
+<node COLOR="#669900" CREATED="1303468111079" FOLDED="true" HGAP="27" ID="_" MODIFIED="1304789374906" POSITION="right" TEXT="Hardware/Technologien" VSHIFT="-37">
 <icon BUILTIN="full-1"/>
 <node CREATED="1304026582021" ID="Freemind_Link_467451108" MODIFIED="1304026585051" TEXT="Display">
 <node CREATED="1304026586323" ID="Freemind_Link_242274958" MODIFIED="1304026662489" TEXT="Selbstleuchtend">
@@ -47,9 +47,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#669900" CREATED="1303468131054" ID="Freemind_Link_613795182" MODIFIED="1303468468052" POSITION="right" TEXT="E-Book-Formate" VSHIFT="-18">
+<node COLOR="#669900" CREATED="1303468131054" FOLDED="true" ID="Freemind_Link_613795182" MODIFIED="1304790856667" POSITION="right" TEXT="E-Book-Formate" VSHIFT="-18">
 <icon BUILTIN="full-2"/>
-<node CREATED="1304026599477" FOLDED="true" ID="Freemind_Link_12123222" MODIFIED="1304534386608" TEXT="PDF">
+<node CREATED="1304026599477" FOLDED="true" ID="Freemind_Link_12123222" MODIFIED="1304790346564" TEXT="PDF">
 <node CREATED="1304533814843" ID="ID_1876553704" MODIFIED="1304533821665" TEXT="&quot;Portable Document Format&quot;"/>
 <node CREATED="1304533268639" ID="ID_1326251202" MODIFIED="1304533277892" TEXT="Dateiformat von Adobe, seit 1993"/>
 <node CREATED="1304533359619" ID="ID_1381189115" MODIFIED="1304533835575" TEXT="Anfangs: Nutzung gegen Lizenz"/>
@@ -91,7 +91,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1304026680927" FOLDED="true" ID="Freemind_Link_1573583397" MODIFIED="1304542970772" TEXT="Kindle (azw/topaz)">
+<node CREATED="1304026680927" FOLDED="true" ID="Freemind_Link_1573583397" MODIFIED="1304790356330" TEXT="Kindle (azw/topaz)">
 <node CREATED="1304534790337" ID="ID_1962439313" MODIFIED="1304534794370" TEXT="Amazon-propriet&#xe4;r"/>
 <node CREATED="1304534796066" ID="ID_1804477031" MODIFIED="1304534802475" TEXT="DRM-gesch&#xfc;tzt">
 <node CREATED="1304535019746" ID="ID_58415596" MODIFIED="1304535506814" TEXT="Ist (war?) gebrochen">
@@ -266,7 +266,7 @@
 <node CREATED="1303468510541" ID="Freemind_Link_1382283166" MODIFIED="1304599938628" POSITION="left" TEXT="Linksammlung">
 <node CREATED="1304011449046" ID="Freemind_Link_1849124721" LINK="http://yro.slashdot.org/story/11/02/14/1848251/E-Book-Lending-Stands-Up-To-Corporate-Mongering" MODIFIED="1304454968159" TEXT="yro.slashdot.org &gt; Story &gt; 11 &gt; 02 &gt; 14 &gt; 1848251 &gt; E-Book-Lending-Stands-Up-To-Corporate-Mongering"/>
 <node CREATED="1304011454259" ID="ID_352864368" LINK="http://www.archive.org/post/349420/in-library-ebook-lending-program-launched" MODIFIED="1304011454259" TEXT="archive.org &gt; Post &gt; 349420 &gt; In-library-ebook-lending-program-launched"/>
-<node CREATED="1304011539208" LINK="http://www.buchwissenschaft.phil.uni-erlangen.de/forschung/publikationen/Kraus.pdf" MODIFIED="1304011539208" TEXT="buchwissenschaft.phil.uni-erlangen.de &gt; Forschung &gt; Publikationen &gt; Kraus"/>
+<node CREATED="1304011539208" ID="ID_1329478729" LINK="http://www.buchwissenschaft.phil.uni-erlangen.de/forschung/publikationen/Kraus.pdf" MODIFIED="1304011539208" TEXT="buchwissenschaft.phil.uni-erlangen.de &gt; Forschung &gt; Publikationen &gt; Kraus"/>
 <node CREATED="1304011693949" ID="Freemind_Link_1883572430" LINK="http://www.netzpolitik.org/2011/grundrechte-fur-ebook-leser/" MODIFIED="1304011693949" TEXT="netzpolitik.org &gt; 2011 &gt; Grundrechte-fur-ebook-leser"/>
 <node CREATED="1304011709598" ID="Freemind_Link_1474892382" LINK="http://www.readwriteweb.com/archives/do_e-book_users_need_a_bill_of_rights_librarians_t.php?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+readwriteweb%20%28ReadWriteWeb%29" MODIFIED="1304011709598" TEXT="readwriteweb.com &gt; Archives &gt; Do e-book users need a bill of rights librarians t ? ..."/>
 <node CREATED="1304012046281" FOLDED="true" ID="Freemind_Link_1538046152" MODIFIED="1304601009028" TEXT="epub">
