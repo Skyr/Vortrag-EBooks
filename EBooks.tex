@@ -1,0 +1,126 @@
+\documentclass[hyperref={pdfpagelabels=false}]{beamer}
+%\documentclass{beamer}
+%\documentclass[draft]{beamer}
+
+\usepackage[german]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+\usepackage{endnotes}
+\usepackage{calc}
+
+\usetheme{Antibes}
+\usecolortheme{dolphin}
+\usefonttheme{default}
+\setbeamertemplate{sidebar left}{\vfill\hspace{0.1cm}\pgfimage[height=.5cm]{bilder/CC-BY-NC-SA}}
+\setbeamertemplate{footline}[frame number]
+\setbeamercovered{transparent}
+
+% Fixing Warnings
+\RequirePackage{fix-cm}
+\RequirePackage{pgfcore}
+\usepackage{pgfpages} 
+\let\Tiny=\tiny
+\usepackage{lmodern}
+
+%\newcommand{\email}[2]{#1@#2}
+\newcommand{\email}[2]{#1\pgfimage[height=2ex]{bilder/at_sign}#2}
+\newcommand{\urlref}[2]{\only<#1>{\endnote{\url{#2}}}}
+%\def\supertiny{ \font\supertinyfont = cmr10 at 1pt \relax \supertinyfont} 
+\renewcommand{\enotesize}{\tiny}
+
+\title{E-Books}
+\subtitle{Einblick in die Technik der digitalen Bücher}
+\author{%
+		Stefan Schlott%
+}
+\institute{%
+	Web: \url{http://stefan.ploing.de/} \\
+	Twitter: \href{https://twitter.com/\_skyr}{@\_skyr}
+}
+\date{12.05.2011}
+\logo{\vspace{5.5cm} \pgfimage[height=2cm]{bilder/Chaosknoten}}
+
+
+\begin{document}
+
+\begin{frame}[plain]
+\titlepage
+\end{frame}
+
+\begin{frame}{Worum es gehen wird...}
+	\begin{itemize}
+		\item Rise of the E-Book
+		\item Ein wenig Technik - Displays und Dateiformate
+		\item ePub - das wohl populärste Format
+		\item DRM mit Adobe Adept
+		\item Etwas Science Fiction
+	\end{itemize}
+\end{frame}
+
+
+\section{Geschichte}
+
+\begin{frame}{Rise of the E-Book}
+	\begin{itemize}
+		\item 1968: Alan Kay: Dynabook% Technische Dokumentation Panzer
+		\item 1971(!): Gründung "`Project Gutenberg"'% (einer der ersten 15 Rechner des Internets)
+		\item 1993: Erster Verkauf von E-Books
+		\item 1998: Erste ISBN für ein E-Book vergeben
+		\item<2-> 1998: "`Rocket eBook"' -- 5,5\dq LCD-Screen, 620\,g, 499\,\$
+		\item<2-> 2000: Mobipocket vertreibt Readersoftware (Palm, Windows CE, etc.)
+		\item<2-> 2002: Randomhouse und HarperCollins verkaufen digitale Versionen ihrer Bücher
+		\item<3-> 2005: Amazon kauft Mobipocket
+		\item<3-> 2006: Sony PRS-500 -- 6\dq eInk-Display, 250\,g, 350\,\$
+		\item<3-> ab 2007: iPhone und Android -- Readersoftware
+		\item<3-> 2007: Amazon Kindle
+		\item<4-> 2010: Apple iPad
+		\item<4-> Q2/2010: Amazon verkauft mehr E-Books als Hardcovers
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Historische Geräte}
+	\begin{columns}
+		\column{.5\textwidth}
+			\pgfimage[width=\textwidth]{bilder/Dynabook} \\
+			Skizze Dynabook
+		\column{.5\textwidth}
+			\pgfimage[width=\textwidth]{bilder/flickr-81374383@N00-2262899712} \\
+			Sony Librié (?), Rocketbook
+	\end{columns}
+\end{frame}
+
+\begin{frame}{Aktuelle Reader}
+	\begin{columns}
+		\column{.5\textwidth}
+			\pgfimage[width=.8\textwidth]{bilder/flickr-40732538582@N01-3624716229} \\
+			Sony PRS-Serie
+		\column{.5\textwidth}
+			\pgfimage[width=.7\textwidth]{bilder/flickr-94168846@N00-4797684465} \\
+			Kindle
+	\end{columns}
+\end{frame}
+
+\section{Technik}
+
+
+\section{ePub}
+
+
+\section{DRM}
+
+
+\section{Ausblick}
+
+
+\begin{frame}[plain]
+	That's it!
+	\begin{center}
+		\pgfimage[height=6cm]{bilder/chaosknoten-fernsehturm}
+	\end{center}
+\end{frame}
+
+\input{imagecredits}
+
+\end{document}
+% vim: ai ts=2 sw=2
+
