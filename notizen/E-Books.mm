@@ -227,6 +227,13 @@
 <node CREATED="1304026777830" ID="Freemind_Link_54019038" MODIFIED="1304026780460" TEXT="Adobe Adept">
 <node CREATED="1304602207551" ID="ID_1963584451" MODIFIED="1304602225108" TEXT="ADEPT = Adobe Digital Editions Protection Technology"/>
 <node CREATED="1304596446299" ID="ID_1121411564" MODIFIED="1304596453527" TEXT="Auch f&#xfc;r andere Formate (z.B. PDF) verwendet"/>
+<node CREATED="1304756125946" ID="ID_1653160295" MODIFIED="1304756145193" TEXT="DRM-Server: &quot;Adobe Content Server&quot;">
+<node CREATED="1304756147909" ID="ID_1371008310" MODIFIED="1304756151209" TEXT="6000$"/>
+<node CREATED="1304756152578" ID="ID_574227621" MODIFIED="1304756156980" TEXT="Installation hakelig"/>
+<node CREATED="1304756158741" ID="ID_1894500655" MODIFIED="1304756171576" TEXT="Offenbar viele Probleme">
+<node CREATED="1304756172328" ID="ID_1028893397" LINK="https://benbiddington.wordpress.com/2010/04/27/adobe-content-server-packaging-large-files-is-painful/" MODIFIED="1304756172328" TEXT="https://benbiddington.wordpress.com/2010/04/27/adobe-content-server-packaging-large-files-is-painful/"/>
+</node>
+</node>
 </node>
 <node CREATED="1304026785898" ID="Freemind_Link_407853068" MODIFIED="1304026788479" TEXT="Apple Fairplay"/>
 <node CREATED="1304026791166" ID="Freemind_Link_1885976087" MODIFIED="1304026793183" TEXT="Kindle DRM"/>
@@ -258,11 +265,10 @@
 </node>
 <node CREATED="1303468510541" ID="Freemind_Link_1382283166" MODIFIED="1304599938628" POSITION="left" TEXT="Linksammlung">
 <node CREATED="1304011449046" ID="Freemind_Link_1849124721" LINK="http://yro.slashdot.org/story/11/02/14/1848251/E-Book-Lending-Stands-Up-To-Corporate-Mongering" MODIFIED="1304454968159" TEXT="yro.slashdot.org &gt; Story &gt; 11 &gt; 02 &gt; 14 &gt; 1848251 &gt; E-Book-Lending-Stands-Up-To-Corporate-Mongering"/>
-<node CREATED="1304011454259" LINK="http://www.archive.org/post/349420/in-library-ebook-lending-program-launched" MODIFIED="1304011454259" TEXT="archive.org &gt; Post &gt; 349420 &gt; In-library-ebook-lending-program-launched"/>
+<node CREATED="1304011454259" ID="ID_352864368" LINK="http://www.archive.org/post/349420/in-library-ebook-lending-program-launched" MODIFIED="1304011454259" TEXT="archive.org &gt; Post &gt; 349420 &gt; In-library-ebook-lending-program-launched"/>
 <node CREATED="1304011539208" LINK="http://www.buchwissenschaft.phil.uni-erlangen.de/forschung/publikationen/Kraus.pdf" MODIFIED="1304011539208" TEXT="buchwissenschaft.phil.uni-erlangen.de &gt; Forschung &gt; Publikationen &gt; Kraus"/>
 <node CREATED="1304011693949" ID="Freemind_Link_1883572430" LINK="http://www.netzpolitik.org/2011/grundrechte-fur-ebook-leser/" MODIFIED="1304011693949" TEXT="netzpolitik.org &gt; 2011 &gt; Grundrechte-fur-ebook-leser"/>
 <node CREATED="1304011709598" ID="Freemind_Link_1474892382" LINK="http://www.readwriteweb.com/archives/do_e-book_users_need_a_bill_of_rights_librarians_t.php?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+readwriteweb%20%28ReadWriteWeb%29" MODIFIED="1304011709598" TEXT="readwriteweb.com &gt; Archives &gt; Do e-book users need a bill of rights librarians t ? ..."/>
-<node CREATED="1304011716000" ID="ID_1213198762" LINK="http://quatermain.tumblr.com/post/3345687143/why-are-vendors-annoyed-by-this-iap-thing" MODIFIED="1304011716000" TEXT="quatermain.tumblr.com &gt; Post &gt; 3345687143 &gt; Why-are-vendors-annoyed-by-this-iap-thing"/>
 <node CREATED="1304012046281" FOLDED="true" ID="Freemind_Link_1538046152" MODIFIED="1304601009028" TEXT="epub">
 <node CREATED="1304011422718" LINK="http://old.idpf.org/ocf/ocf1.0/download/ocf10.htm" MODIFIED="1304011422718" TEXT="old.idpf.org &gt; Ocf &gt; Ocf1.0 &gt; Download &gt; Ocf10"/>
 <node CREATED="1304011427372" ID="Freemind_Link_1898670643" LINK="http://old.idpf.org/2007/opf/OPF_2.0_final_spec.html" MODIFIED="1304011427372" TEXT="old.idpf.org &gt; 2007 &gt; Opf &gt; OPF 2.0 final spec"/>
@@ -276,8 +282,8 @@
 <node CREATED="1304011681365" ID="Freemind_Link_1674486951" LINK="http://www.readwriteweb.com/archives/e-book_sales_surpass_print_is_this_a_win_or_a_loss.php" MODIFIED="1304011681365" TEXT="readwriteweb.com &gt; Archives &gt; E-book sales surpass print is this a win or a loss"/>
 <node CREATED="1304011701548" LINK="http://www.gizmodo.de/2011/03/01/26jahrige-verdient-millionen-mit-kindle-buchern.html" MODIFIED="1304011701548" TEXT="gizmodo.de &gt; 2011 &gt; 03 &gt; 01 &gt; 26jahrige-verdient-millionen-mit-kindle-buchern"/>
 </node>
-<node CREATED="1304012112740" ID="Freemind_Link_1283426028" MODIFIED="1304754454632" TEXT="DRM">
-<node CREATED="1303887437665" LINK="http://www.thebuzzmedia.com/wp-content/uploads/2010/02/why-people-pirate-movies-steps-to-watching-video.jpg" MODIFIED="1303887437665" TEXT="thebuzzmedia.com &gt; Wp-content &gt; Uploads &gt; 2010 &gt; 02 &gt; Why-people-pirate-movies-steps-to-watching-video"/>
+<node CREATED="1304012112740" FOLDED="true" ID="Freemind_Link_1283426028" MODIFIED="1304771748284" TEXT="DRM">
+<node CREATED="1303887437665" ID="ID_1514939015" LINK="http://www.thebuzzmedia.com/wp-content/uploads/2010/02/why-people-pirate-movies-steps-to-watching-video.jpg" MODIFIED="1303887437665" TEXT="thebuzzmedia.com &gt; Wp-content &gt; Uploads &gt; 2010 &gt; 02 &gt; Why-people-pirate-movies-steps-to-watching-video"/>
 <node CREATED="1304011376008" ID="Freemind_Link_1218266141" LINK="https://www.eff.org/deeplinks/2010/12/2010-e-book-buyers-guide-e-book-privacy" MODIFIED="1304011376008" TEXT="https://www.eff.org/deeplinks/2010/12/2010-e-book-buyers-guide-e-book-privacy"/>
 <node CREATED="1304011406420" ID="Freemind_Link_60451961" LINK="https://apprenticealf.wordpress.com/2011/01/13/ebooks-formats-drm-and-you-&#x2014;-a-guide-for-the-perplexed/" MODIFIED="1304011406420" TEXT="https://apprenticealf.wordpress.com/2011/01/13/ebooks-formats-drm-and-you-&#x2014;-a-guide-for-the-perplexed/"/>
 <node CREATED="1304011412091" ID="Freemind_Link_112617521" LINK="http://www.adobe.com/products/contentserver/" MODIFIED="1304011412091" TEXT="adobe.com &gt; Products &gt; Contentserver"/>
@@ -295,6 +301,12 @@
 </node>
 <node CREATED="1304754466750" FOLDED="true" ID="ID_1396484150" MODIFIED="1304754493170" TEXT="Anteil Herstellungskosten Print: 12%">
 <node CREATED="1304754480087" ID="ID_1262509204" LINK="http://ebookninjas.com/2010/11/04/episode-11-drm/" MODIFIED="1304754480087" TEXT="ebookninjas.com &gt; 2010 &gt; 11 &gt; 04 &gt; Episode-11-drm"/>
+</node>
+<node CREATED="1304771754347" ID="ID_1546571123" MODIFIED="1304771772232" TEXT="iPad">
+<node CREATED="1304771782086" ID="ID_682694762" LINK="http://www.welt.de/wirtschaft/webwelt/article7100171/Mit-dem-iPad-beginnt-eine-neue-Aera.html" MODIFIED="1304771784333" TEXT="welt.de &gt; Wirtschaft &gt; Webwelt &gt; Article7100171 &gt; Mit-dem-iPad-beginnt-eine-neue-Aera">
+<node CREATED="1304772017093" ID="ID_107997273" MODIFIED="1304772203735" TEXT="Mathias D&#xf6;pfner, Chef Axel Springer: &quot;Every publisher in the world should sit down once a day and pray to thank Steve Jobs that he is saving the publishing industry&quot;"/>
+</node>
+<node CREATED="1304011716000" ID="ID_1213198762" LINK="http://quatermain.tumblr.com/post/3345687143/why-are-vendors-annoyed-by-this-iap-thing" MODIFIED="1304011716000" TEXT="quatermain.tumblr.com &gt; Post &gt; 3345687143 &gt; Why-are-vendors-annoyed-by-this-iap-thing"/>
 </node>
 </node>
 <node CREATED="1304454949478" ID="ID_649213152" MODIFIED="1304454973246" POSITION="right" TEXT="Zukunft">
@@ -319,6 +331,9 @@
 <node CREATED="1304599255218" ID="ID_458557377" MODIFIED="1304599259993" TEXT="Zukunft von ePub">
 <node CREATED="1304599260891" ID="ID_1508256186" LINK="http://sigildev.blogspot.com/2011/02/analysis-of-epub3-and-uh-bit-more.html" MODIFIED="1304599260891" TEXT="sigildev.blogspot.com &gt; 2011 &gt; 02 &gt; Analysis-of-epub3-and-uh-bit-more"/>
 </node>
+</node>
+<node CREATED="1304765439292" ID="ID_147862728" MODIFIED="1304765445475" POSITION="left" TEXT="LaTeX Beamer Infos">
+<node CREATED="1304765453082" ID="ID_133804559" LINK="http://www2.informatik.hu-berlin.de/~mischulz/beamer.html" MODIFIED="1304765453082" TEXT="www2.informatik.hu-berlin.de &gt; Mischulz &gt; Beamer"/>
 </node>
 </node>
 </map>
