@@ -136,6 +136,12 @@
 <node CREATED="1304026603124" ID="Freemind_Link_979669625" MODIFIED="1304534351420" TEXT="Mobipocket (mobi)"/>
 <node CREATED="1304534522462" ID="ID_251501737" MODIFIED="1304534524929" TEXT="Plucker"/>
 <node CREATED="1304535113818" ID="ID_316140507" MODIFIED="1304535115154" TEXT="..."/>
+<node CREATED="1304755624948" ID="ID_205678610" MODIFIED="1304755632160" TEXT="&quot;Metaformat&quot; SiSu">
+<node CREATED="1304755637639" ID="ID_311120557" LINK="http://www.sisudoc.org/" MODIFIED="1304755637639" TEXT="sisudoc.org"/>
+<node CREATED="1304755653274" ID="ID_622008000" MODIFIED="1304755663952" TEXT="SiSu = &quot;Structured information, Serialized Units&quot;"/>
+<node CREATED="1304755750891" ID="ID_1556553824" MODIFIED="1304755756771" TEXT="Sehr einfaches Markup"/>
+<node CREATED="1304755760573" ID="ID_1516283341" MODIFIED="1304755780882" TEXT="Ausgabe in versch. Formate (html-Site, html-Singlefile, ePub, LaTeX, etc.)"/>
+</node>
 </node>
 </node>
 <node COLOR="#669900" CREATED="1303468150681" ID="Freemind_Link_1361370314" MODIFIED="1303468247263" POSITION="right" TEXT="ePub">
@@ -209,49 +215,86 @@
 <node CREATED="1304544129206" ID="ID_1834165482" MODIFIED="1304544155272" TEXT="Grafiken: Standard setzt voraus: PNG, JPG, GIF, SVG"/>
 </node>
 </node>
-<node CREATED="1304026747410" ID="Freemind_Link_565413325" MODIFIED="1304026749123" TEXT="Editoren"/>
-<node CREATED="1304026751775" ID="Freemind_Link_1828731157" MODIFIED="1304026754644" TEXT="DRM-Unterst&#xfc;tzung"/>
+<node CREATED="1304026747410" ID="Freemind_Link_565413325" MODIFIED="1304599465088" TEXT="Editoren/Software">
+<node CREATED="1304599440722" ID="ID_1517702178" LINK="https://code.google.com/p/sigil/" MODIFIED="1304599443222" TEXT="https://code.google.com/p/sigil/"/>
+<node CREATED="1304599288469" ID="ID_1218668199" LINK="http://www.imaginaryplanet.net/weblogs/idiotprogrammer/2010/11/ebookepub-production-secrets-tips-tricks/" MODIFIED="1304599288469" TEXT="imaginaryplanet.net &gt; Weblogs &gt; Idiotprogrammer &gt; 2010 &gt; 11 &gt; Ebookepub-production-secrets-tips-tricks"/>
+<node CREATED="1304599465874" ID="ID_1276177142" LINK="http://calibre-ebook.com/" MODIFIED="1304599465874" TEXT="calibre-ebook.com"/>
+</node>
 </node>
 <node COLOR="#669900" CREATED="1303468162408" ID="Freemind_Link_794623312" MODIFIED="1304026770754" POSITION="right" TEXT="DRM" VSHIFT="3">
 <icon BUILTIN="full-4"/>
 <node CREATED="1304026775220" ID="Freemind_Link_1752907821" MODIFIED="1304026777096" TEXT="Techniken">
-<node CREATED="1304026777830" ID="Freemind_Link_54019038" MODIFIED="1304026780460" TEXT="Adobe Adept"/>
+<node CREATED="1304026777830" ID="Freemind_Link_54019038" MODIFIED="1304026780460" TEXT="Adobe Adept">
+<node CREATED="1304602207551" ID="ID_1963584451" MODIFIED="1304602225108" TEXT="ADEPT = Adobe Digital Editions Protection Technology"/>
+<node CREATED="1304596446299" ID="ID_1121411564" MODIFIED="1304596453527" TEXT="Auch f&#xfc;r andere Formate (z.B. PDF) verwendet"/>
+</node>
 <node CREATED="1304026785898" ID="Freemind_Link_407853068" MODIFIED="1304026788479" TEXT="Apple Fairplay"/>
 <node CREATED="1304026791166" ID="Freemind_Link_1885976087" MODIFIED="1304026793183" TEXT="Kindle DRM"/>
 </node>
 <node CREATED="1304026804008" ID="Freemind_Link_407826680" MODIFIED="1304026819145" TEXT="Auswirkungen">
+<node CREATED="1304601618654" ID="ID_1258842352" MODIFIED="1304601633248" TEXT="Doctorow&#x2019;s First Law: &#x201c;Any time someone puts a lock on something that belongs to you, and won&#x2019;t give you a key, they&#x2019;re not doing it for your benefit.&#x201d;">
+<node CREATED="1304601630555" ID="ID_370194009" LINK="http://www.publishersweekly.com/pw/by-topic/columns-and-blogs/cory-doctorow/article/44012-doctorow-s-first-law.html" MODIFIED="1304601630555" TEXT="publishersweekly.com &gt; Pw &gt; By-topic &gt; Columns-and-blogs &gt; Cory-doctorow &gt; Article &gt; 44012-doctorow-s-first-law"/>
+</node>
 <node CREATED="1304026824818" ID="Freemind_Link_1637194798" MODIFIED="1304026828384" TEXT="Wiederverkaufsm&#xf6;glichkeit"/>
 <node CREATED="1304026831619" ID="Freemind_Link_1602808382" MODIFIED="1304026833073" TEXT="Verleihen"/>
 <node CREATED="1304026836030" ID="Freemind_Link_1335049726" MODIFIED="1304026839895" TEXT="Backups, Ger&#xe4;tedefekt"/>
 <node CREATED="1304026843038" ID="Freemind_Link_1535477880" MODIFIED="1304026853128" TEXT="Remotezugriff durch Verlagsh&#xe4;user"/>
 <node CREATED="1304026858980" ID="Freemind_Link_241132981" MODIFIED="1304026868895" TEXT="Datenflu&#xdf; zum Verlagshaus"/>
 </node>
+<node CREATED="1304596433770" ID="ID_1916953249" MODIFIED="1304596441450" TEXT="Adobe Adept in epub">
+<node CREATED="1304597068529" ID="ID_1570616639" MODIFIED="1304597073487" TEXT="encryption.xml">
+<node CREATED="1304597087721" ID="ID_1511141791" MODIFIED="1304597098983" TEXT="KeyInfo-Elemente haben Subelement aus Adobe-Namespace">
+<node CREATED="1304597113131" ID="ID_516897481" MODIFIED="1304597114674" TEXT=" &lt;resource xmlns=&quot;http://ns.adobe.com/adept&quot;&gt;urn:uuid:740f8fd6-a5d5-40b9-9db5-c01161e4ac9b&lt;/resource&gt;"/>
 </node>
-<node CREATED="1303468510541" ID="Freemind_Link_1382283166" MODIFIED="1303468514310" POSITION="left" TEXT="Linksammlung">
+</node>
+<node CREATED="1304597188670" ID="ID_1481091754" MODIFIED="1304597190709" TEXT="rights.xml">
+<node CREATED="1304597194695" ID="ID_1947600254" MODIFIED="1304597196620" TEXT="User-id"/>
+<node CREATED="1304597197696" ID="ID_150128727" MODIFIED="1304597199653" TEXT="Resource-id"/>
+<node CREATED="1304597206022" ID="ID_1060919666" MODIFIED="1304597207973" TEXT="Device-id"/>
+<node CREATED="1304597214054" ID="ID_1944830091" MODIFIED="1304597215414" TEXT="Signature"/>
+<node CREATED="1304597216712" ID="ID_1942386917" MODIFIED="1304597218829" TEXT="License token"/>
+</node>
+</node>
+</node>
+<node CREATED="1303468510541" ID="Freemind_Link_1382283166" MODIFIED="1304599938628" POSITION="left" TEXT="Linksammlung">
 <node CREATED="1304011449046" ID="Freemind_Link_1849124721" LINK="http://yro.slashdot.org/story/11/02/14/1848251/E-Book-Lending-Stands-Up-To-Corporate-Mongering" MODIFIED="1304454968159" TEXT="yro.slashdot.org &gt; Story &gt; 11 &gt; 02 &gt; 14 &gt; 1848251 &gt; E-Book-Lending-Stands-Up-To-Corporate-Mongering"/>
 <node CREATED="1304011454259" LINK="http://www.archive.org/post/349420/in-library-ebook-lending-program-launched" MODIFIED="1304011454259" TEXT="archive.org &gt; Post &gt; 349420 &gt; In-library-ebook-lending-program-launched"/>
 <node CREATED="1304011539208" LINK="http://www.buchwissenschaft.phil.uni-erlangen.de/forschung/publikationen/Kraus.pdf" MODIFIED="1304011539208" TEXT="buchwissenschaft.phil.uni-erlangen.de &gt; Forschung &gt; Publikationen &gt; Kraus"/>
 <node CREATED="1304011693949" ID="Freemind_Link_1883572430" LINK="http://www.netzpolitik.org/2011/grundrechte-fur-ebook-leser/" MODIFIED="1304011693949" TEXT="netzpolitik.org &gt; 2011 &gt; Grundrechte-fur-ebook-leser"/>
 <node CREATED="1304011709598" ID="Freemind_Link_1474892382" LINK="http://www.readwriteweb.com/archives/do_e-book_users_need_a_bill_of_rights_librarians_t.php?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+readwriteweb%20%28ReadWriteWeb%29" MODIFIED="1304011709598" TEXT="readwriteweb.com &gt; Archives &gt; Do e-book users need a bill of rights librarians t ? ..."/>
-<node CREATED="1304011716000" LINK="http://quatermain.tumblr.com/post/3345687143/why-are-vendors-annoyed-by-this-iap-thing" MODIFIED="1304011716000" TEXT="quatermain.tumblr.com &gt; Post &gt; 3345687143 &gt; Why-are-vendors-annoyed-by-this-iap-thing"/>
-<node CREATED="1304012046281" FOLDED="true" ID="Freemind_Link_1538046152" MODIFIED="1304012050439" TEXT="epub">
+<node CREATED="1304011716000" ID="ID_1213198762" LINK="http://quatermain.tumblr.com/post/3345687143/why-are-vendors-annoyed-by-this-iap-thing" MODIFIED="1304011716000" TEXT="quatermain.tumblr.com &gt; Post &gt; 3345687143 &gt; Why-are-vendors-annoyed-by-this-iap-thing"/>
+<node CREATED="1304012046281" FOLDED="true" ID="Freemind_Link_1538046152" MODIFIED="1304601009028" TEXT="epub">
 <node CREATED="1304011422718" LINK="http://old.idpf.org/ocf/ocf1.0/download/ocf10.htm" MODIFIED="1304011422718" TEXT="old.idpf.org &gt; Ocf &gt; Ocf1.0 &gt; Download &gt; Ocf10"/>
 <node CREATED="1304011427372" ID="Freemind_Link_1898670643" LINK="http://old.idpf.org/2007/opf/OPF_2.0_final_spec.html" MODIFIED="1304011427372" TEXT="old.idpf.org &gt; 2007 &gt; Opf &gt; OPF 2.0 final spec"/>
 <node CREATED="1304011431608" ID="Freemind_Link_1169937106" LINK="http://old.idpf.org/2007/ops/OPS_2.0_final_spec.html" MODIFIED="1304011431608" TEXT="old.idpf.org &gt; 2007 &gt; Ops &gt; OPS 2.0 final spec"/>
 <node CREATED="1304011416982" LINK="https://secure.wikimedia.org/wikipedia/en/wiki/EPUB" MODIFIED="1304011416982" TEXT="https://secure.wikimedia.org/wikipedia/en/wiki/EPUB"/>
+<node CREATED="1304599934456" ID="ID_1392796936" LINK="http://www.jedisaber.com/eBooks/tutorial.asp" MODIFIED="1304599934456" TEXT="jedisaber.com &gt; EBooks &gt; Tutorial"/>
+<node CREATED="1304601007220" ID="ID_501755317" LINK="http://ebookarchitects.com/resources.php" MODIFIED="1304601007220" TEXT="ebookarchitects.com &gt; Resources"/>
 </node>
 <node CREATED="1304012063741" FOLDED="true" ID="Freemind_Link_1800576726" MODIFIED="1304012070526" TEXT="E-Books Verbreitung">
 <node CREATED="1304011673505" LINK="http://www.gizmodo.de/2011/04/18/ebooks-expandieren.html" MODIFIED="1304011673505" TEXT="gizmodo.de &gt; 2011 &gt; 04 &gt; 18 &gt; Ebooks-expandieren"/>
 <node CREATED="1304011681365" ID="Freemind_Link_1674486951" LINK="http://www.readwriteweb.com/archives/e-book_sales_surpass_print_is_this_a_win_or_a_loss.php" MODIFIED="1304011681365" TEXT="readwriteweb.com &gt; Archives &gt; E-book sales surpass print is this a win or a loss"/>
 <node CREATED="1304011701548" LINK="http://www.gizmodo.de/2011/03/01/26jahrige-verdient-millionen-mit-kindle-buchern.html" MODIFIED="1304011701548" TEXT="gizmodo.de &gt; 2011 &gt; 03 &gt; 01 &gt; 26jahrige-verdient-millionen-mit-kindle-buchern"/>
 </node>
-<node CREATED="1304012112740" FOLDED="true" ID="Freemind_Link_1283426028" MODIFIED="1304012114157" TEXT="DRM">
+<node CREATED="1304012112740" ID="Freemind_Link_1283426028" MODIFIED="1304754454632" TEXT="DRM">
 <node CREATED="1303887437665" LINK="http://www.thebuzzmedia.com/wp-content/uploads/2010/02/why-people-pirate-movies-steps-to-watching-video.jpg" MODIFIED="1303887437665" TEXT="thebuzzmedia.com &gt; Wp-content &gt; Uploads &gt; 2010 &gt; 02 &gt; Why-people-pirate-movies-steps-to-watching-video"/>
 <node CREATED="1304011376008" ID="Freemind_Link_1218266141" LINK="https://www.eff.org/deeplinks/2010/12/2010-e-book-buyers-guide-e-book-privacy" MODIFIED="1304011376008" TEXT="https://www.eff.org/deeplinks/2010/12/2010-e-book-buyers-guide-e-book-privacy"/>
 <node CREATED="1304011406420" ID="Freemind_Link_60451961" LINK="https://apprenticealf.wordpress.com/2011/01/13/ebooks-formats-drm-and-you-&#x2014;-a-guide-for-the-perplexed/" MODIFIED="1304011406420" TEXT="https://apprenticealf.wordpress.com/2011/01/13/ebooks-formats-drm-and-you-&#x2014;-a-guide-for-the-perplexed/"/>
 <node CREATED="1304011412091" ID="Freemind_Link_112617521" LINK="http://www.adobe.com/products/contentserver/" MODIFIED="1304011412091" TEXT="adobe.com &gt; Products &gt; Contentserver"/>
 <node CREATED="1304011661726" LINK="http://i-u2665-cabbages.blogspot.com/2009/02/circumventing-adobe-adept-drm-for-epub.html" MODIFIED="1304011661726" TEXT="i-u2665-cabbages.blogspot.com &gt; 2009 &gt; 02 &gt; Circumventing-adobe-adept-drm-for-epub"/>
 <node CREATED="1304011687508" ID="Freemind_Link_990447673" LINK="http://radar.oreilly.com/2011/04/drm-airport-security.html" MODIFIED="1304011687508" TEXT="radar.oreilly.com &gt; 2011 &gt; 04 &gt; Drm-airport-security"/>
+<node CREATED="1304751998904" ID="ID_740348241" MODIFIED="1304752386931" TEXT="Cory Doctorow - American Library Association">
+<node CREATED="1304752375375" ID="ID_1382946148" LINK="http://vimeo.com/23192654" MODIFIED="1304752379166" TEXT="vimeo.com &gt; 23192654"/>
+<node CREATED="1304752007235" ID="ID_822381180" MODIFIED="1304752010263" TEXT="ca. 36 Min"/>
+<node CREATED="1304752011477" ID="ID_1356735673" MODIFIED="1304752024624" TEXT="British Publisher: &quot;You cannot own an eBook. You can only license it&quot;"/>
+</node>
+<node CREATED="1304754401944" ID="ID_21475081" MODIFIED="1304754412812" TEXT="Cory Doctorow - eBooks">
+<node CREATED="1304754413679" ID="ID_185211924" LINK="http://vimeo.com/10457689" MODIFIED="1304754413679" TEXT="vimeo.com &gt; 10457689"/>
+<node CREATED="1304754527732" ID="ID_1212815471" LINK="http://craphound.com/?p=2758" MODIFIED="1304754527732" TEXT="craphound.com &gt;  ? ..."/>
+</node>
+</node>
+<node CREATED="1304754466750" FOLDED="true" ID="ID_1396484150" MODIFIED="1304754493170" TEXT="Anteil Herstellungskosten Print: 12%">
+<node CREATED="1304754480087" ID="ID_1262509204" LINK="http://ebookninjas.com/2010/11/04/episode-11-drm/" MODIFIED="1304754480087" TEXT="ebookninjas.com &gt; 2010 &gt; 11 &gt; 04 &gt; Episode-11-drm"/>
 </node>
 </node>
 <node CREATED="1304454949478" ID="ID_649213152" MODIFIED="1304454973246" POSITION="right" TEXT="Zukunft">
@@ -272,6 +315,9 @@
 <node CREATED="1304455226012" ID="ID_1239277275" MODIFIED="1304455236945" TEXT="Spezialisierte Verlage (z.B. f&#xfc;r Promotionen)"/>
 <node CREATED="1304455197141" ID="ID_965101072" MODIFIED="1304455245647" TEXT="&quot;Print on Demand&quot;-Dienste"/>
 <node CREATED="1304455254173" ID="ID_1723322212" MODIFIED="1304455261310" TEXT="Verkauf von eBooks"/>
+</node>
+<node CREATED="1304599255218" ID="ID_458557377" MODIFIED="1304599259993" TEXT="Zukunft von ePub">
+<node CREATED="1304599260891" ID="ID_1508256186" LINK="http://sigildev.blogspot.com/2011/02/analysis-of-epub3-and-uh-bit-more.html" MODIFIED="1304599260891" TEXT="sigildev.blogspot.com &gt; 2011 &gt; 02 &gt; Analysis-of-epub3-and-uh-bit-more"/>
 </node>
 </node>
 </node>
