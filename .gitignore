@@ -6,6 +6,7 @@
 *.snm
 *.toc
 *.ent
+*.vrb
 *.swp
 /EBooks.pdf
 

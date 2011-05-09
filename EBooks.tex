@@ -7,6 +7,8 @@
 \usepackage{url}
 \usepackage{endnotes}
 \usepackage{calc}
+\usepackage{listings}
+\usepackage{dirtree}
 
 \usetheme{Antibes}
 \usecolortheme{dolphin}
@@ -27,6 +29,17 @@
 \newcommand{\urlref}[2]{\only<#1>{\endnote{\url{#2}}}}
 %\def\supertiny{ \font\supertinyfont = cmr10 at 1pt \relax \supertinyfont} 
 \renewcommand{\enotesize}{\tiny}
+
+\lstnewenvironment{xml}
+  {\lstset{language=XML,
+		basicstyle=\tiny,
+		extendedchars=\true,
+		tabsize=2,
+		breaklines=true,
+		breakatwhitespace=true,
+		inputencoding=utf8}}
+	{}
+
 
 \title{E-Books}
 \subtitle{Einblick in die Technik der digitalen Bücher}
@@ -294,9 +307,71 @@
 
 \begin{frame}{Der ePub-Standard}
 	\begin{itemize}
-		\item ...
+		\item Flexible Darstellung von Büchern und sonstigen Publikationen auf verschiedenen Geräten
+		\item Reflow: Layout-Umbruch passend für die Display-Größe
+		\item Standard besteht aus drei Teilen:
+		\begin{itemize}
+			\item OCF -- Open Container Format
+			\item OPF -- Open Packaging Format
+			\item OPS -- Open Publication Structure
+		\end{itemize}
 	\end{itemize}
 \end{frame}
+
+\begin{frame}{Open Container Format}
+Verzeichnisstruktur:
+\dirtree{%
+.0 EPub-Datei\DTcomment{(Zip-Archiv)}.
+.1 mimetype.
+.1 META-INF.
+.2 container.xml.
+.2 (weitere optionale Dateien)\DTcomment{(z.B. für DRM)}.
+.1 OEBPS.
+.2 content.opf.
+.2 toc.ncx.
+.2 (Daten).
+}
+OCF definiert Archivtyp, Regeln für Dateinamen, Inhalt von container.xml
+\end{frame}
+
+
+\begin{frame}[fragile]
+\frametitle{Open Container Format}
+container.xml:
+\begin{xml}
+<?xml version="1.0"?>
+<container version="1.0" xmlns="urn:oasis:names:tc:opendocument:xmlns:container">
+    <rootfiles>
+        <rootfile full-path="OEBPS/content.opf" media-type="application/oebps-package+xml"/>
+   </rootfiles>
+</container>
+\end{xml}
+	\begin{itemize}
+		\item Beschreibt Inhalt des Containers
+		\item Definiert Version des Containerformats
+		\item Beinhaltet typischerweise genau eine rootfile-Referenz
+		\item Mehrere rootfile-Referenzen: Alternative Formate (z.B. PDF)
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Open Packaging Format}
+	\begin{itemize}
+		\item OPF Package Document (.opf-Datei)
+		\begin{itemize}
+			\item Eindeutige Package-ID
+			\item Metadaten des E-Books
+			\item Manifest: Liste aller verwendeten Ressourcen
+			\item Spine: Dokumente in linearer Lesereihenfolge
+			\item Guide: Referenzen auf besondere Abschnitte wie Vorwort, Literaturangaben, etc.
+		\end{itemize}
+		\item Navigation Center eXtended (.ncx-Datei)
+		\begin{itemize}
+			\item Hierarchische Gliederung des Inhalts
+			\item Früher: Guide-Abschnitt in .opf-Datei
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
 
 
 \section{DRM}
