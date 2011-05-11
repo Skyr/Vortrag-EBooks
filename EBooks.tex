@@ -509,7 +509,7 @@ toc.ncx:
 
 \begin{frame}{Und was, wenn...}
 	\begin{itemize}
-		\item ...ich mein System neu aufsetzen muß?
+		\item ...ich mein System neu aufsetzen muß? Backups! Geräteaktivierung!
 		\item ...der DRM-Server nicht erreichbar ist oder abgeschaltet wurde?
 		\item ...ich mein E-Book ausleihen möchte?
 		\item ...ich mein E-Book verkaufen will?
@@ -518,9 +518,39 @@ toc.ncx:
 	\end{itemize}
 \end{frame}
 
+\begin{frame}{DRM und E-Books}
+	\begin{block}{Doctorow's First Law}
+		"`Any time someone puts a lock on something that belongs to you, and won’t give you a key, they’re not doing it for your benefit."'
+	\end{block}
+\end{frame}
+
 \begin{frame}{DRM mit Adobe Adept}
 	\begin{itemize}
-		\item ...
+		\item Laut Prospekt: Bindung an User, Bindung an Gerät, Sicherung mit Passwort
+		\item activation.xml (Oyo):
+		\begin{itemize}
+			\item Activation service: Service URL, Certificate, authentication certificate
+			\item Credentials: User-ID, pkcs12-Key, license certificate, {\em private license key}, authentication certificate, username (Adobe ID)
+			\item Activation token: Activation Service URL, Device-ID, User-ID, Signatur
+			\item License service: License Service URL, Certificate
+		\end{itemize}
+		\item rights.xml (ePub):
+		\begin{itemize}
+			\item User-ID
+			\item Resource-ID
+			\item Device-ID
+			\item Signature
+			\item License Token
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}{DRM mit Adobe Adept}
+	\begin{itemize}
+		\item Gängige Praxis: Bücher mit User-Schlüssel verschlüsselt
+		\item Symmetrischer Schlüssel: In Private License Key enthalten
+		\item Info über verwendete Chiffre: In encryption.xml vermerkt
 	\end{itemize}
 \end{frame}
 
