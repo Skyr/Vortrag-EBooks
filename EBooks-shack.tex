@@ -1,0 +1,138 @@
+\documentclass[hyperref={pdfpagelabels=false}]{beamer}
+\providecommand\thispdfpagelabel[1]{}
+%\documentclass{beamer}
+%\documentclass[draft]{beamer}
+
+\usepackage[german]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+\usepackage{endnotes}
+\usepackage{calc}
+\usepackage{listings}
+\usepackage{dirtree}
+\usepackage{color}
+\usepackage{colortbl}
+
+\usepackage{tikz}
+
+\usetheme{Antibes}
+\usecolortheme{beaver}
+\setbeamercolor{frametitle}{bg=}
+\usefonttheme{default}
+\setbeamertemplate{sidebar left}{\vfill\hspace{0.1cm}\pgfimage[height=.5cm]{bilder/CC-BY-NC-SA}}
+\setbeamertemplate{footline}[frame number]
+\setbeamercovered{transparent}
+
+% Fixing Warnings
+\RequirePackage{fix-cm}
+\RequirePackage{pgfcore}
+\usepackage{pgfpages} 
+\let\Tiny=\tiny
+\usepackage{lmodern}
+
+%\newcommand{\email}[2]{#1@#2}
+\newcommand{\email}[2]{#1\pgfimage[height=2ex]{bilder/at_sign}#2}
+\newcommand{\urlref}[2]{\only<#1>{\endnote{\url{#2}}}}
+%\def\supertiny{ \font\supertinyfont = cmr10 at 1pt \relax \supertinyfont} 
+\renewcommand{\enotesize}{\tiny}
+
+\lstnewenvironment{xml}
+  {\lstset{language=XML,
+		basicstyle=\tiny,
+		extendedchars=\true,
+		tabsize=2,
+		breaklines=true,
+		breakatwhitespace=true,
+		inputencoding=utf8}}
+	{}
+
+
+\title{E-Books}
+\subtitle{Einblick in die Technik der digitalen Bücher}
+\author{%
+		Stefan Schlott%
+}
+\institute{%
+	Web: \url{http://stefan.ploing.de/} \\
+	Twitter: \href{https://twitter.com/\_skyr}{@\_skyr}
+}
+\date{18.06.2011}
+\logo{\vspace{5.5cm} \pgfimage[height=2cm]{bilder/logo_shack}}
+
+
+\begin{document}
+
+\begin{frame}[plain]
+\titlepage
+\end{frame}
+
+
+\begin{frame}{Worum es gehen wird...}
+	\begin{itemize}
+		\item Rise of the E-Book
+		\item ePub - das wohl populärste Format
+		\item DRM mit Adobe Adept (und "`hackable stuff"')
+	\end{itemize}
+\end{frame}
+
+
+\section{Geschichte}
+
+\input{eb-geschichte}
+
+\section{ePub}
+
+\input{eb-dateiformate-epub}
+
+\input{eb-epub}
+
+\input{eb-epub-ideen}
+
+
+\section{DRM}
+
+\input{eb-drm}
+
+
+\section{Ausblick}
+
+\begin{frame}{Hackable e-book stuff -- beispielsweise...}
+	\begin{itemize}
+		\item DRM-Beschränkungen
+		\begin{itemize}
+			\item Proprietäre Hardware (z.B. Kindle) gut kontrollierbar
+			\item Achillesferse oft die PC-Software
+		\end{itemize}
+		\item Oyo-Hardware
+		\begin{itemize}
+			\item ARM9-Hardwareplattform von Qisda
+			\item "`Diagnose-Hintertür"' zur Konsole, root-Passwort bekannt :-)
+			\item Eigene Anwendungen mit QT Embedded schreiben
+			\item ...oder eigenes Debian aufspielen :-)
+		\end{itemize}
+		\item Nook-Hardware
+		\begin{itemize}
+			\item Android-basierter Reader - meist rootbar :-)
+			\item Erste Version: Aufschrauben, interne MicroSD-Card manipulieren
+			\item Für viele Versionen: Softroot
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}[plain]
+	That's it!
+	\begin{center}
+		\pgfimage[height=6cm]{bilder/chaosknoten-fernsehturm}
+	\end{center}
+	\begin{center}
+		Web: \url{http://stefan.ploing.de/} \\
+		Twitter: \href{https://twitter.com/\_skyr}{@\_skyr}
+	\end{center}
+\end{frame}
+
+\input{imagecredits-shack}
+
+\end{document}
+% vim: ai ts=2 sw=2
+

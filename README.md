@@ -1,7 +1,7 @@
 Vortragsfolien "E-Books - ein Einblick in die Technik der digitalen Bücher"
 ===========================================================================
 
-Folien für den Vortrag beim CCC Stuttgart.
+Folien für den Vortrag beim CCC Stuttgart und beim Shackspace Stuttgart.
 
 
 Lizenz
