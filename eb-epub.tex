@@ -1,0 +1,156 @@
+\begin{frame}{Der ePub-Standard}
+	\begin{itemize}
+		\item Flexible Darstellung von Büchern und sonstigen Publikationen auf verschiedenen Geräten
+		\item Reflow: Layout-Umbruch passend für die Display-Größe
+		\item Standard besteht aus drei Teilen:
+		\begin{itemize}
+			\item OCF -- Open Container Format
+			\item OPF -- Open Packaging Format
+			\item OPS -- Open Publication Structure
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Open Container Format}
+Verzeichnisstruktur:
+\dirtree{%
+.0 EPub-Datei\DTcomment{(Zip-Archiv)}.
+.1 mimetype.
+.1 META-INF.
+.2 container.xml.
+.2 (weitere optionale Dateien)\DTcomment{(z.B. für DRM)}.
+.1 OEBPS.
+.2 content.opf.
+.2 toc.ncx.
+.2 (Daten).
+}
+OCF definiert Archivtyp, Regeln für Dateinamen, Inhalt von container.xml
+\end{frame}
+
+
+\begin{frame}[fragile]
+\frametitle{Open Container Format}
+container.xml:
+\begin{xml}
+<?xml version="1.0"?>
+<container version="1.0" xmlns="urn:oasis:names:tc:opendocument:xmlns:container">
+    <rootfiles>
+        <rootfile full-path="OEBPS/content.opf" media-type="application/oebps-package+xml"/>
+   </rootfiles>
+</container>
+\end{xml}
+	\begin{itemize}
+		\item Beschreibt Inhalt des Containers
+		\item Definiert Version des Containerformats
+		\item Beinhaltet typischerweise genau eine rootfile-Referenz
+		\item Mehrere rootfile-Referenzen: Alternative Formate (z.B. PDF)
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Open Packaging Format}
+	\begin{itemize}
+		\item OPF Package Document (.opf-Datei)
+		\begin{itemize}
+			\item Eindeutige Package-ID
+			\item Metadaten des E-Books
+			\item Manifest: Liste aller verwendeten Ressourcen
+			\item Spine: Dokumente in linearer Lesereihenfolge
+			\item Guide: Referenzen auf besondere Abschnitte wie Vorwort, Literaturangaben, etc.
+		\end{itemize}
+		\item Navigation Center eXtended (.ncx-Datei)
+		\begin{itemize}
+			\item Hierarchische Gliederung des Inhalts
+			\item Früher: Guide-Abschnitt in .opf-Datei
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Open Packaging Format}
+content.opf:
+\begin{xml}
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookID" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+      <dc:title>Testbuch</dc:title>
+      <dc:identifier id="BookID" opf:scheme="UUID">urn:uuid:6eeee(...)</dc:identifier>
+      <!-- Weitere Infos im Dublin Core Format -->
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="bild.j2k" href="Images/bild.j2k" media-type="image/jpeg2000" fallback="bild.jpg"/>
+    <item id="bild.jpg" href="Images/bild.jpg" media-type="image/jpeg"/>
+    <item id="Section0001.xhtml" href="Text/Section0001.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+\end{xml}
+	\begin{itemize}
+		\item Fallback: Dateien in einem Nicht-Standard-Format
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Open Packaging Format}
+content.opf:
+\begin{xml}
+  <spine toc="ncx">
+    <itemref idref="Section0001.xhtml"/>
+  </spine>
+	<guide>
+		<reference type="index" title="Stichwortverzeichnis" href="bookindex.html"/>
+	</guide>
+</package>
+\end{xml}
+	\begin{itemize}
+		\item toc-Attribut des Spine: ID, welche auf ein NCX-Inhaltsverzeichnis verweist
+		\item Guide-Typen: title-page, toc, index, glossary, uvm.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Open Packaging Format}
+toc.ncx:
+\begin{xml}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta name="dtb:depth" content="2"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>Testbuch</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navPoint-1" playOrder="1">
+      <navLabel>
+        <text>Titel 1</text>
+      </navLabel>
+      <content src="Text/Section0001.xhtml"/>
+      <navPoint id="navPoint-2" playOrder="2">
+        <navLabel>
+          <text>Abschnitt 1</text>
+        </navLabel>
+        <content src="Text/Section0001.xhtml#chapter"/>
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>
+\end{xml}
+\end{frame}
+
+\begin{frame}{Open Publication Structure}
+	\begin{itemize}
+		\item Definiert XHTML/CSS-Subset und Grafikformate
+		\item XHTML: Diverse Tags "`bevorzugt"'
+		\item CSS
+		\begin{itemize}
+			\item Standard listet div. unterstützte Attribute
+			\item Einige zusätzliche Attribute für ePub:
+			\item oeb-page-head, oeb-page-foot: Elemente (z.B. div), die als Kopf/Fuß gezeigt werden
+			\item oeb-column-number: Erlaubt mehrspaltiges Rendering
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+% vim: ai ts=2 sw=2

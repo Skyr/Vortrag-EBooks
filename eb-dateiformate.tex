@@ -1,0 +1,48 @@
+\begin{frame}{Futter für den E-Book-Reader: Dateiformate}
+	Die verbreitetsten Formate:
+
+	\begin{itemize}
+		\item PDF (Portable Document Format)
+		\item azw / topaz (Kindle-eigene Dateiformate)
+		\item mobi (Mobipocket -- Basis für die Kindles azw)
+		\item ePub (Electronic Publication)
+	\end{itemize}
+
+	...und viele weitere (Plucker, etc.).
+
+	Sonderrolle: SiSu (Structured Information, Serialized Units): Meta-Format zum Generieren verschiedener Ausgabeformate
+\end{frame}
+
+\begin{frame}{Das "`ich-kann-alles"'-Format: PDF}
+	\begin{itemize}
+		\item Format seit 1993 von Adobe entwickelt
+		\item Anfangs Nutzung gegen Lizenz, seit 2008 ISO-Standard
+		\item Ursprünglicher Zweck: Geräteunabhängige Dokumentendarstellung, 100\%ige Layout-Treue
+		\item Ständig wachsender Feature-Satz:
+		\begin{itemize}
+			\item Editierbarkeit, Kommentare
+			\item Formulare
+			\item Interaktivität mittels Javaskript
+			\item Multimedia-Inhalte, 3d-CAD-Daten, Flash
+			\item Reflow (Aufbrechen des Layouts)
+			\item ...und vieles mehr
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{ePub -- die "`Electronic PUBlication"'}
+	\begin{itemize}
+		\item Erste Spezifikation von 1999. v2.0 von 2007, aktuell: v2.0.1
+		\item Relativ simples Format, auf den Zweck zugeschnitten
+		\item Wiederverwendung vieler Standards und -technologien
+		\begin{itemize}
+			\item Konsequente Verwendung von Unicode
+			\item Containerformat: zip
+			\item Beschreibungsdaten: XML
+			\item Inhalte: XHTML 1.1, CSS-2.0-Subset
+			\item Grafikformate: png, jpeg, gif, svg
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+% vim: ai ts=2 sw=2

@@ -1,0 +1,89 @@
+\begin{frame}{DRM und E-Books}
+	\begin{itemize}
+		\item Notwehr der Publizisten?
+		\begin{itemize}
+			\item Bindung von Geräten an einen Nutzer
+			\item Lizensierung von Büchern an einen Nutzer
+			\item Eigene Geräte können eigene Bücher ansehen
+		\end{itemize}
+		\item<2-> ...oder "`feuchter Traum"' der Publizisten?
+		\begin{itemize}
+			\item<2-> Geräte prüfen regelmäßig beim DRM-Server Legitimität des Zugriffs auf ein Buch
+			\item<2-> Verleih von Büchern zwischen Nutzern
+			\item<2-> Andere Geschäftsmodelle, z.B. Buchverleih
+			\item<2-> "`Bestrafung"' von Lizenzübertretungen durch Deaktivieren des Zugriffs
+			\item<2-> "`Rückruf"' von Inhalten (aus lizenzrechtlichen, politischen oder sonstigen Gründen)
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{DRM und E-Books}
+	\begin{block}{ }
+		"`You cannot own an eBook. You can only license it."' \\
+		--- Brit. Verleger
+	\end{block}
+\end{frame}
+
+
+\newcommand{\cellyes}{\cellcolor{red}Ja}
+\newcommand{\cellunknown}{\cellcolor{yellow}?}
+\newcommand{\cellno}{\cellcolor{green}Nein}
+
+\begin{frame}{Verschiedene DRM-Mechanismen}
+	\begin{tabular}{lcccc}
+	Verfolgbar/Trackbar & Kindle & Sony & iPad & Adobe \\
+	Büchersuche & \cellunknown & \cellunknown & \cellyes & \cellno \\
+	Buchkäufe & \cellyes & \cellno & \cellyes & \cellno \\
+	Gelesenes Buch & \cellyes & \cellno & \cellno & \cellno \\
+	Infos an Dritte & \cellyes & \cellyes & \cellyes & \cellno \\
+	\end{tabular}
+\end{frame}
+
+\begin{frame}{Und was, wenn...}
+	\begin{itemize}
+		\item ...ich mein System neu aufsetzen muß? Backups! Geräteaktivierung!
+		\item ...der DRM-Server nicht erreichbar ist oder abgeschaltet wurde?
+		\item ...ich mein E-Book ausleihen möchte?
+		\item ...ich mein E-Book verkaufen will?
+		\item ...ich Bücher zu "`brisanten"' Themen lese?
+		\item ...aufgrund von Repressionen ein Buch verschwinden soll?
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{DRM und E-Books}
+	\begin{block}{Doctorow's First Law}
+		"`Any time someone puts a lock on something that belongs to you, and won’t give you a key, they’re not doing it for your benefit."'
+	\end{block}
+\end{frame}
+
+\begin{frame}{DRM mit Adobe Adept}
+	\begin{itemize}
+		\item Laut Prospekt: Bindung an User, Bindung an Gerät, Sicherung mit Passwort
+		\item activation.xml (Oyo):
+		\begin{itemize}
+			\item Activation service: Service URL, Certificate, authentication certificate
+			\item Credentials: User-ID, pkcs12-Key, license certificate, {\em private license key}, authentication certificate, username (Adobe ID)
+			\item Activation token: Activation Service URL, Device-ID, User-ID, Signatur
+			\item License service: License Service URL, Certificate
+		\end{itemize}
+		\item rights.xml (ePub):
+		\begin{itemize}
+			\item User-ID
+			\item Resource-ID
+			\item Device-ID
+			\item Signature
+			\item License Token
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}{DRM mit Adobe Adept}
+	\begin{itemize}
+		\item Gängige Praxis: Bücher mit User-Schlüssel verschlüsselt
+		\item Symmetrischer Schlüssel: In Private License Key enthalten
+		\item Info über verwendete Chiffre: In encryption.xml vermerkt
+	\end{itemize}
+\end{frame}
+
+% vim: ai ts=2 sw=2
