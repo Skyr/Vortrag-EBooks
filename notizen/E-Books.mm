@@ -1,7 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1303468075098" ID="Freemind_Link_1032927763" MODIFIED="1304454948409" STYLE="fork" TEXT="E-Books">
-<node COLOR="#669900" CREATED="1303468111079" FOLDED="true" HGAP="27" ID="_" MODIFIED="1304789374906" POSITION="right" TEXT="Hardware/Technologien" VSHIFT="-37">
+<node COLOR="#669900" CREATED="1303468111079" FOLDED="true" HGAP="27" ID="_" MODIFIED="1315479279653" POSITION="right" TEXT="Hardware/Technologien" VSHIFT="-37">
 <icon BUILTIN="full-1"/>
 <node CREATED="1304026582021" ID="Freemind_Link_467451108" MODIFIED="1304026585051" TEXT="Display">
 <node CREATED="1304026586323" ID="Freemind_Link_242274958" MODIFIED="1304026662489" TEXT="Selbstleuchtend">
@@ -47,7 +47,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#669900" CREATED="1303468131054" FOLDED="true" ID="Freemind_Link_613795182" MODIFIED="1304790856667" POSITION="right" TEXT="E-Book-Formate" VSHIFT="-18">
+<node COLOR="#669900" CREATED="1303468131054" FOLDED="true" ID="Freemind_Link_613795182" MODIFIED="1315479281428" POSITION="right" TEXT="E-Book-Formate" VSHIFT="-18">
 <icon BUILTIN="full-2"/>
 <node CREATED="1304026599477" FOLDED="true" ID="Freemind_Link_12123222" MODIFIED="1304790346564" TEXT="PDF">
 <node CREATED="1304533814843" ID="ID_1876553704" MODIFIED="1304533821665" TEXT="&quot;Portable Document Format&quot;"/>
@@ -144,7 +144,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#669900" CREATED="1303468150681" ID="Freemind_Link_1361370314" MODIFIED="1303468247263" POSITION="right" TEXT="ePub">
+<node COLOR="#669900" CREATED="1303468150681" FOLDED="true" ID="Freemind_Link_1361370314" MODIFIED="1315479284375" POSITION="right" TEXT="ePub">
 <icon BUILTIN="full-3"/>
 <node CREATED="1303470107635" ID="Freemind_Link_1723022308" MODIFIED="1303470109401" TEXT="Geschichte">
 <node CREATED="1303470110378" ID="Freemind_Link_89479159" MODIFIED="1303470129453" TEXT="Aktueller Standard: ePub 2.0.1 (Seit 05/2010)"/>
@@ -221,7 +221,7 @@
 <node CREATED="1304599465874" ID="ID_1276177142" LINK="http://calibre-ebook.com/" MODIFIED="1304599465874" TEXT="calibre-ebook.com"/>
 </node>
 </node>
-<node COLOR="#669900" CREATED="1303468162408" ID="Freemind_Link_794623312" MODIFIED="1304026770754" POSITION="right" TEXT="DRM" VSHIFT="3">
+<node COLOR="#669900" CREATED="1303468162408" FOLDED="true" ID="Freemind_Link_794623312" MODIFIED="1315479286852" POSITION="right" TEXT="DRM" VSHIFT="3">
 <icon BUILTIN="full-4"/>
 <node CREATED="1304026775220" ID="Freemind_Link_1752907821" MODIFIED="1304026777096" TEXT="Techniken">
 <node CREATED="1304026777830" ID="Freemind_Link_54019038" MODIFIED="1304026780460" TEXT="Adobe Adept">
@@ -269,7 +269,7 @@
 <node CREATED="1304011539208" ID="ID_1329478729" LINK="http://www.buchwissenschaft.phil.uni-erlangen.de/forschung/publikationen/Kraus.pdf" MODIFIED="1304011539208" TEXT="buchwissenschaft.phil.uni-erlangen.de &gt; Forschung &gt; Publikationen &gt; Kraus"/>
 <node CREATED="1304011693949" ID="Freemind_Link_1883572430" LINK="http://www.netzpolitik.org/2011/grundrechte-fur-ebook-leser/" MODIFIED="1304011693949" TEXT="netzpolitik.org &gt; 2011 &gt; Grundrechte-fur-ebook-leser"/>
 <node CREATED="1304011709598" ID="Freemind_Link_1474892382" LINK="http://www.readwriteweb.com/archives/do_e-book_users_need_a_bill_of_rights_librarians_t.php?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+readwriteweb%20%28ReadWriteWeb%29" MODIFIED="1304011709598" TEXT="readwriteweb.com &gt; Archives &gt; Do e-book users need a bill of rights librarians t ? ..."/>
-<node CREATED="1304012046281" FOLDED="true" ID="Freemind_Link_1538046152" MODIFIED="1304601009028" TEXT="epub">
+<node CREATED="1304012046281" FOLDED="true" ID="Freemind_Link_1538046152" MODIFIED="1322125795876" TEXT="epub">
 <node CREATED="1304011422718" LINK="http://old.idpf.org/ocf/ocf1.0/download/ocf10.htm" MODIFIED="1304011422718" TEXT="old.idpf.org &gt; Ocf &gt; Ocf1.0 &gt; Download &gt; Ocf10"/>
 <node CREATED="1304011427372" ID="Freemind_Link_1898670643" LINK="http://old.idpf.org/2007/opf/OPF_2.0_final_spec.html" MODIFIED="1304011427372" TEXT="old.idpf.org &gt; 2007 &gt; Opf &gt; OPF 2.0 final spec"/>
 <node CREATED="1304011431608" ID="Freemind_Link_1169937106" LINK="http://old.idpf.org/2007/ops/OPS_2.0_final_spec.html" MODIFIED="1304011431608" TEXT="old.idpf.org &gt; 2007 &gt; Ops &gt; OPS 2.0 final spec"/>
@@ -277,10 +277,11 @@
 <node CREATED="1304599934456" ID="ID_1392796936" LINK="http://www.jedisaber.com/eBooks/tutorial.asp" MODIFIED="1304599934456" TEXT="jedisaber.com &gt; EBooks &gt; Tutorial"/>
 <node CREATED="1304601007220" ID="ID_501755317" LINK="http://ebookarchitects.com/resources.php" MODIFIED="1304601007220" TEXT="ebookarchitects.com &gt; Resources"/>
 </node>
-<node CREATED="1304012063741" FOLDED="true" ID="Freemind_Link_1800576726" MODIFIED="1304012070526" TEXT="E-Books Verbreitung">
+<node CREATED="1304012063741" ID="Freemind_Link_1800576726" MODIFIED="1315479296253" TEXT="E-Books Verbreitung">
 <node CREATED="1304011673505" LINK="http://www.gizmodo.de/2011/04/18/ebooks-expandieren.html" MODIFIED="1304011673505" TEXT="gizmodo.de &gt; 2011 &gt; 04 &gt; 18 &gt; Ebooks-expandieren"/>
 <node CREATED="1304011681365" ID="Freemind_Link_1674486951" LINK="http://www.readwriteweb.com/archives/e-book_sales_surpass_print_is_this_a_win_or_a_loss.php" MODIFIED="1304011681365" TEXT="readwriteweb.com &gt; Archives &gt; E-book sales surpass print is this a win or a loss"/>
-<node CREATED="1304011701548" LINK="http://www.gizmodo.de/2011/03/01/26jahrige-verdient-millionen-mit-kindle-buchern.html" MODIFIED="1304011701548" TEXT="gizmodo.de &gt; 2011 &gt; 03 &gt; 01 &gt; 26jahrige-verdient-millionen-mit-kindle-buchern"/>
+<node CREATED="1304011701548" ID="ID_582881896" LINK="http://www.gizmodo.de/2011/03/01/26jahrige-verdient-millionen-mit-kindle-buchern.html" MODIFIED="1304011701548" TEXT="gizmodo.de &gt; 2011 &gt; 03 &gt; 01 &gt; 26jahrige-verdient-millionen-mit-kindle-buchern"/>
+<node CREATED="1322125818549" ID="ID_1973175521" LINK="http://www.heise.de/newsticker/meldung/libri-de-verkauft-mehr-E-Books-als-Taschenbuecher-1383920.html" MODIFIED="1322125818549" TEXT="heise.de &gt; Newsticker &gt; Meldung &gt; Libri-de-verkauft-mehr-E-Books-als-Taschenbuecher-1383920"/>
 </node>
 <node CREATED="1304012112740" FOLDED="true" ID="Freemind_Link_1283426028" MODIFIED="1304771748284" TEXT="DRM">
 <node CREATED="1303887437665" ID="ID_1514939015" LINK="http://www.thebuzzmedia.com/wp-content/uploads/2010/02/why-people-pirate-movies-steps-to-watching-video.jpg" MODIFIED="1303887437665" TEXT="thebuzzmedia.com &gt; Wp-content &gt; Uploads &gt; 2010 &gt; 02 &gt; Why-people-pirate-movies-steps-to-watching-video"/>
@@ -308,8 +309,15 @@
 </node>
 <node CREATED="1304011716000" ID="ID_1213198762" LINK="http://quatermain.tumblr.com/post/3345687143/why-are-vendors-annoyed-by-this-iap-thing" MODIFIED="1304011716000" TEXT="quatermain.tumblr.com &gt; Post &gt; 3345687143 &gt; Why-are-vendors-annoyed-by-this-iap-thing"/>
 </node>
+<node CREATED="1315479419280" ID="ID_585648485" MODIFIED="1315479557303" TEXT="eReaders and eBooks - Zahlen 09/2011">
+<node CREATED="1315479558009" ID="ID_1738100928" LINK="http://www.lukew.com/ff/entry.asp?1391" MODIFIED="1315479558009" TEXT="lukew.com &gt; Ff &gt; Entry ? ..."/>
 </node>
-<node CREATED="1304454949478" ID="ID_649213152" MODIFIED="1304454973246" POSITION="right" TEXT="Zukunft">
+<node CREATED="1315479561886" ID="ID_959556842" MODIFIED="1315479754668" TEXT="Erfinder des eBooks (Gr&#xfc;nder Gutenberg Project) stirbt">
+<node CREATED="1315479582891" ID="ID_223727391" LINK="http://www.golem.de/1109/86303.html" MODIFIED="1315479582891" TEXT="golem.de &gt; 1109 &gt; 86303"/>
+<node CREATED="1315479755517" ID="ID_347763867" LINK="http://www.heise.de/newsticker/meldung/Gruender-des-Project-Gutenberg-gestorben-1339136.html" MODIFIED="1315479755517" TEXT="heise.de &gt; Newsticker &gt; Meldung &gt; Gruender-des-Project-Gutenberg-gestorben-1339136"/>
+</node>
+</node>
+<node CREATED="1304454949478" FOLDED="true" ID="ID_649213152" MODIFIED="1315479289332" POSITION="right" TEXT="Zukunft">
 <icon BUILTIN="full-5"/>
 <node CREATED="1304455093727" ID="ID_875194003" MODIFIED="1304455100903" TEXT="Erste Anwendungen">
 <node CREATED="1304455102086" ID="ID_223796388" MODIFIED="1304455116630" TEXT="alles, was man nur tempor&#xe4;r auf Papier braucht (techn. Doku, etc.)"/>
