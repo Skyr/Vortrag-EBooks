@@ -1,0 +1,203 @@
+\documentclass[hyperref={pdfpagelabels=false}]{beamer}
+\providecommand\thispdfpagelabel[1]{}
+%\documentclass{beamer}
+%\documentclass[draft]{beamer}
+
+\usepackage[german]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+\usepackage{endnotes}
+\usepackage{calc}
+\usepackage{listings}
+\usepackage{dirtree}
+\usepackage{color}
+\usepackage{colortbl}
+
+\usetheme{Antibes}
+\usecolortheme{dolphin}
+\usefonttheme{default}
+\setbeamertemplate{sidebar left}{\vfill\hspace{0.1cm}\pgfimage[height=.5cm]{bilder/CC-BY-NC-SA}}
+\setbeamertemplate{footline}[frame number]
+\setbeamercovered{transparent}
+
+% Fixing Warnings
+\RequirePackage{fix-cm}
+\RequirePackage{pgfcore}
+\usepackage{pgfpages} 
+\let\Tiny=\tiny
+\usepackage{lmodern}
+
+%\newcommand{\email}[2]{#1@#2}
+\newcommand{\email}[2]{#1\pgfimage[height=2ex]{bilder/at_sign}#2}
+\newcommand{\urlref}[2]{\only<#1>{\endnote{\url{#2}}}}
+%\def\supertiny{ \font\supertinyfont = cmr10 at 1pt \relax \supertinyfont} 
+\renewcommand{\enotesize}{\tiny}
+
+\lstnewenvironment{xml}
+  {\lstset{language=XML,
+		basicstyle=\tiny,
+		extendedchars=\true,
+		tabsize=2,
+		breaklines=true,
+		breakatwhitespace=true,
+		inputencoding=utf8}}
+	{}
+
+
+\title{E-Books}
+\subtitle{Einblick in die Technik der digitalen Bücher}
+\author{%
+		Stefan Schlott%
+}
+\institute{%
+	Web: \url{http://stefan.ploing.de/} \\
+	Twitter: \href{https://twitter.com/\_skyr}{@\_skyr}
+}
+\date{03/2012}
+\logo{\vspace{5.5cm} \pgfimage[height=2cm]{bilder/Chaosknoten}}
+
+
+\begin{document}
+
+\begin{frame}[plain]
+\titlepage
+\end{frame}
+
+
+\begin{frame}{Worum es gehen wird...}
+	\begin{itemize}
+		\item Geschichte des E-Books
+		\item Ein wenig Technik - Displays und Dateiformate
+		\item DRM mit Adobe Adept
+		\item Versuch eines Blicks in die Glaskugel
+	\end{itemize}
+\end{frame}
+
+
+\section{Geschichte}
+
+\input{eb-geschichte}
+
+
+\section{Technik}
+
+\begin{frame}{Technische Aspekte}
+	...sind auch Entscheidungskriterien für den Kauf
+	\begin{itemize}
+		\item Gewicht
+		\item Anzeigegröße (und Gerätegröße allgemein)
+		\item Akku-Laufzeit
+		\item Verarbeitungsgeschwindigkeit
+		\item Netzanbindung (WLAN, UMTS)
+		\item Speicher-Erweiterbarkeit
+		\item Dateiformate (und deren Darstellungsqualität)
+		\item Anbindung an einen Bücherladen
+	\end{itemize}
+	...aber vor allem:
+\end{frame}
+
+\subsection{Display-Technologien}
+
+\begin{frame}{Displays!}
+	\begin{columns}
+		\column{.5\textwidth}
+			Selbstleuchtend
+			\smallskip
+
+			\pgfimage[height=.6\textheight]{bilder/flickr-74028479@N00-282468560}
+		\column{.5\textwidth}
+			Reflektierend
+			\smallskip
+
+			\pgfimage[height=.6\textheight]{bilder/flickr-13631806@N00-1183612614}
+	\end{columns}
+\end{frame}
+
+\input{eb-displaytechnik}
+
+
+\subsection{Dateiformate}
+
+\input{eb-dateiformate}
+
+
+\subsection{Displaygröße}
+
+\begin{frame}{Display- und Gerätegröße}
+	Display- und Gerätegröße hängt stark vom gewünschten Einsatzzweck ab.
+
+	Typische Entscheidung zwischen:
+
+	\begin{itemize}
+		\item Groß, (oft) farbig, (meist) selbstleuchtend
+		\item Klein, schwarz-weiß, (meist) E-Ink
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Pro großes Display}
+	\begin{itemize}
+		\item Farbige Inhalte, u.U. multimediale Inhalte
+		\item Bevorzugtes Lesematerial liegt (nur) als PDF vor
+		\item Aufwendige Gestaltung des Inhalts oder 1:1-Umsetzungen von Printbüchern (bedeutet ebenfalls meist PDF)
+		\item Typisch hierfür: Online-Versionen von Zeitschriften, Fachbücher
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Pro kleines Display}
+	\begin{itemize}
+		\item Inhalte mit geringem Anteil an Grafiken und Schaubildern
+		\item Lesematerial liegt in "`E-Reader-freundlichen"' Formaten (Text, html, epub, etc.) vor
+		\item Automatische Umformatierung ideal für Fließtext
+		\item Typisch hierfür: Romane, entsprechend aufbereitete Fachbücher
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Was ist nun besser?}
+	Was ist nun "`besser"'?
+\begin{itemize}
+		\item Es gibt kein Universalgerät
+		\item Ähnlich Buchformat! Bücher werden ebenfalls unterschiedlich hergestellt...
+		\begin{itemize}
+			\item Größe
+			\item Farbigkeit
+			\item Papierqualität
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+
+\section{DRM}
+
+\input{eb-drm}
+
+
+\section{E-Books und Bücherkultur}
+
+\begin{frame}{Demokratisierung des Büchermarkts}
+	Noch nie so einfach, selbst zu publizieren!
+	\begin{itemize}
+		\item Früher: Produktion im Voraus durch Verlag, hoher Aufwand
+		\item<2-> Spezialisierte Verlage (z.B. für Promotionen)
+		\item<3-> "`Print on demand"'-Dienste
+		\item<4-> Verkauf von E-Books über verschiedene Plattformen
+		\item<4-> ...oder kostenloser Download
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}[plain]
+	That's it!
+	\begin{center}
+		\pgfimage[height=6cm]{bilder/chaosknoten-fernsehturm}
+	\end{center}
+	\begin{center}
+		Web: \url{http://stefan.ploing.de/} \\
+		Twitter: \href{https://twitter.com/\_skyr}{@\_skyr}
+	\end{center}
+\end{frame}
+
+\input{imagecredits-cccs}
+
+\end{document}
+% vim: ai ts=2 sw=2
+
