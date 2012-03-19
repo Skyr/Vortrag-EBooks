@@ -1,3 +1,6 @@
+bibliothek:
+	pdflatex EBooks-bibliothek.tex
+
 shack:
 	pdflatex EBooks-shack.tex
 
