@@ -263,13 +263,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1303468510541" ID="Freemind_Link_1382283166" MODIFIED="1304599938628" POSITION="left" TEXT="Linksammlung">
+<node CREATED="1303468510541" ID="Freemind_Link_1382283166" MODIFIED="1327569352861" POSITION="left" TEXT="Linksammlung">
 <node CREATED="1304011449046" ID="Freemind_Link_1849124721" LINK="http://yro.slashdot.org/story/11/02/14/1848251/E-Book-Lending-Stands-Up-To-Corporate-Mongering" MODIFIED="1304454968159" TEXT="yro.slashdot.org &gt; Story &gt; 11 &gt; 02 &gt; 14 &gt; 1848251 &gt; E-Book-Lending-Stands-Up-To-Corporate-Mongering"/>
 <node CREATED="1304011454259" ID="ID_352864368" LINK="http://www.archive.org/post/349420/in-library-ebook-lending-program-launched" MODIFIED="1304011454259" TEXT="archive.org &gt; Post &gt; 349420 &gt; In-library-ebook-lending-program-launched"/>
 <node CREATED="1304011539208" ID="ID_1329478729" LINK="http://www.buchwissenschaft.phil.uni-erlangen.de/forschung/publikationen/Kraus.pdf" MODIFIED="1304011539208" TEXT="buchwissenschaft.phil.uni-erlangen.de &gt; Forschung &gt; Publikationen &gt; Kraus"/>
 <node CREATED="1304011693949" ID="Freemind_Link_1883572430" LINK="http://www.netzpolitik.org/2011/grundrechte-fur-ebook-leser/" MODIFIED="1304011693949" TEXT="netzpolitik.org &gt; 2011 &gt; Grundrechte-fur-ebook-leser"/>
-<node CREATED="1304011709598" ID="Freemind_Link_1474892382" LINK="http://www.readwriteweb.com/archives/do_e-book_users_need_a_bill_of_rights_librarians_t.php?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+readwriteweb%20%28ReadWriteWeb%29" MODIFIED="1304011709598" TEXT="readwriteweb.com &gt; Archives &gt; Do e-book users need a bill of rights librarians t ? ..."/>
-<node CREATED="1304012046281" FOLDED="true" ID="Freemind_Link_1538046152" MODIFIED="1322125795876" TEXT="epub">
+<node CREATED="1304011709598" ID="Freemind_Link_1474892382" LINK="http://www.readwriteweb.com/archives/do_e-book_users_need_a_bill_of_rights_librarians_t.php" MODIFIED="1304011709598" TEXT="readwriteweb.com &gt; Archives &gt; Do e-book users need a bill of rights librarians t ? ..."/>
+<node CREATED="1304012046281" FOLDED="true" ID="Freemind_Link_1538046152" MODIFIED="1327569342259" TEXT="epub">
 <node CREATED="1304011422718" LINK="http://old.idpf.org/ocf/ocf1.0/download/ocf10.htm" MODIFIED="1304011422718" TEXT="old.idpf.org &gt; Ocf &gt; Ocf1.0 &gt; Download &gt; Ocf10"/>
 <node CREATED="1304011427372" ID="Freemind_Link_1898670643" LINK="http://old.idpf.org/2007/opf/OPF_2.0_final_spec.html" MODIFIED="1304011427372" TEXT="old.idpf.org &gt; 2007 &gt; Opf &gt; OPF 2.0 final spec"/>
 <node CREATED="1304011431608" ID="Freemind_Link_1169937106" LINK="http://old.idpf.org/2007/ops/OPS_2.0_final_spec.html" MODIFIED="1304011431608" TEXT="old.idpf.org &gt; 2007 &gt; Ops &gt; OPS 2.0 final spec"/>
@@ -315,6 +315,12 @@
 <node CREATED="1315479561886" ID="ID_959556842" MODIFIED="1315479754668" TEXT="Erfinder des eBooks (Gr&#xfc;nder Gutenberg Project) stirbt">
 <node CREATED="1315479582891" ID="ID_223727391" LINK="http://www.golem.de/1109/86303.html" MODIFIED="1315479582891" TEXT="golem.de &gt; 1109 &gt; 86303"/>
 <node CREATED="1315479755517" ID="ID_347763867" LINK="http://www.heise.de/newsticker/meldung/Gruender-des-Project-Gutenberg-gestorben-1339136.html" MODIFIED="1315479755517" TEXT="heise.de &gt; Newsticker &gt; Meldung &gt; Gruender-des-Project-Gutenberg-gestorben-1339136"/>
+</node>
+<node CREATED="1327569353738" ID="ID_1962831543" MODIFIED="1327569359550" TEXT="Apple sabotiert epub">
+<node CREATED="1327569360220" ID="ID_651697138" LINK="http://www.golem.de/1201/89261.html" MODIFIED="1327569360220" TEXT="golem.de &gt; 1201 &gt; 89261"/>
+</node>
+<node CREATED="1327574750357" ID="ID_1709677088" MODIFIED="1327574760647" TEXT="&quot;ebooks are not easy&quot;: Amazon zahlt Autoren 34%">
+<node CREATED="1327574761660" ID="ID_1773637593" LINK="http://www.whattofix.com/blog/archives/2012/01/e-book-publishi.php" MODIFIED="1327574761660" TEXT="whattofix.com &gt; Blog &gt; Archives &gt; 2012 &gt; 01 &gt; E-book-publishi"/>
 </node>
 </node>
 <node CREATED="1304454949478" FOLDED="true" ID="ID_649213152" MODIFIED="1315479289332" POSITION="right" TEXT="Zukunft">
