@@ -1,0 +1,31 @@
+\begin{frame}{DRM mit Adobe Adept}
+	\begin{itemize}
+		\item Laut Prospekt: Bindung an User, Bindung an Gerät, Sicherung mit Passwort
+		\item activation.xml (Oyo):
+		\begin{itemize}
+			\item Activation service: Service URL, Certificate, authentication certificate
+			\item Credentials: User-ID, pkcs12-Key, license certificate, {\em private license key}, authentication certificate, username (Adobe ID)
+			\item Activation token: Activation Service URL, Device-ID, User-ID, Signatur
+			\item License service: License Service URL, Certificate
+		\end{itemize}
+		\item rights.xml (ePub):
+		\begin{itemize}
+			\item User-ID
+			\item Resource-ID
+			\item Device-ID
+			\item Signature
+			\item License Token
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}{DRM mit Adobe Adept}
+	\begin{itemize}
+		\item Gängige Praxis: Bücher mit User-Schlüssel verschlüsselt
+		\item Symmetrischer Schlüssel: In Private License Key enthalten
+		\item Info über verwendete Chiffre: In encryption.xml vermerkt
+	\end{itemize}
+\end{frame}
+
+% vim: ai ts=2 sw=2
