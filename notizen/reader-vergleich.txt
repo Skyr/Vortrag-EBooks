@@ -1,0 +1,55 @@
+Hands-On-Vergleich E-Book-Reader (20.03.2012)
+
+Oyo 1:
+Blättergeschwindigkeit: Eher lahm
+Display: Alte Technologie, geringer Kontrast
+Bedienung mit Touchscreen, 4 Tasten an der Seite; träge
+Integrierter Shop (WLAN, 3G)
+Manueller Upload: Als ext. Speichergerät erkannt
+Erweiterbar mit Micro-SD
+Möglichkeit, Bücher zu Gruppen zusammenzufügen
+Keine Buchcover in der Übersicht
+Softwareupdate: Erstaunlich frisch! (wieder Bewegung) Neuer als Oyo 2 :-)
+
+Oyo 2:
+Blättergeschwindigkeit: Eher lahm (etwas schneller, aber nur minimal)
+Display: Alte Technologie, geringer Kontrast
+Bedienung mit Touchscreen, 4 Tasten an der Seite; träge
+Integrierter Shop (WLAN, 3G)
+Manueller Upload: Als ext. Speichergerät erkannt
+Erweiterbar mit Micro-SD
+Neue Bücher erscheinen in "recent books"
+Möglichkeit, Bücher zu Gruppen zusammenzufügen
+Keine Buchcover in der Übersicht
+
+Acer Lumiread:
+Blättergeschwindigkeit: Moderat (etwas schneller als Oyo 1)
+Display: Kontrastreicher als Oyo 1
+Bedienung: Steuerkreuz, Tastatur; etwas träge
+WLAN, aber kein Shop
+Manueller Upload: Als ext. Speichergerät erkannt
+Erweiterbar mit Micro-SD
+Bedienung etwas träge, fummelig mit dem Steuerkreuz
+
+Sony PRS1: Leicht!
+Blättergeschwindigkeit: Sehr schnell! Wow!
+Display: E-Ink Pearl
+Bedienung mit Touchscreen, 5 Tasten unten; flott! wow!
+WLAN, aber kein Shop
+Manueller Upload: Als ext. Speichergerät erkannt
+Erweiterbar mit Micro-SD
+Erkennt nach dem Aufspielen von Büchern sofort neue, stellt sie mit "new" auf der Titelseite da
+Buchcover im Standby
+
+Pocketbook 360°:
+Blättergeschwindigkeit: Eher lahm (geringfügig schneller als Oyo, aber fast gleich)
+Display: Vizplex E-Ink (kontrastarm, etwas besser las Oyo, ähnlich Acer Lumiread)
+Bedienung: Steuerkreuz, drei Tasten an der Seite
+Kein WLAN, ...
+Manueller Upload: Als ext. Speichergerät erkannt
+Erweiterbar mit Micro-SD
+Keine konsistente Bedienung bei der Navigation (Menü/Auswahl/Zurück)
+Bedienung fummelig
+Keine Buchercover-Anzeige
+Trotz 5"-Display ist das Gerät nicht kleiner --> kein Vorteil
+
