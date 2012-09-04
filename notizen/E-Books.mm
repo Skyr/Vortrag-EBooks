@@ -1,7 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1303468075098" ID="Freemind_Link_1032927763" MODIFIED="1304454948409" STYLE="fork" TEXT="E-Books">
-<node COLOR="#669900" CREATED="1303468111079" FOLDED="true" HGAP="27" ID="_" MODIFIED="1315479279653" POSITION="right" TEXT="Hardware/Technologien" VSHIFT="-37">
+<node COLOR="#669900" CREATED="1303468111079" FOLDED="true" HGAP="27" ID="_" MODIFIED="1346757598712" POSITION="right" TEXT="Hardware/Technologien" VSHIFT="-37">
 <icon BUILTIN="full-1"/>
 <node CREATED="1304026582021" ID="Freemind_Link_467451108" MODIFIED="1304026585051" TEXT="Display">
 <node CREATED="1304026586323" ID="Freemind_Link_242274958" MODIFIED="1304026662489" TEXT="Selbstleuchtend">
@@ -322,6 +322,9 @@
 <node CREATED="1327574750357" ID="ID_1709677088" MODIFIED="1327574760647" TEXT="&quot;ebooks are not easy&quot;: Amazon zahlt Autoren 34%">
 <node CREATED="1327574761660" ID="ID_1773637593" LINK="http://www.whattofix.com/blog/archives/2012/01/e-book-publishi.php" MODIFIED="1327574761660" TEXT="whattofix.com &gt; Blog &gt; Archives &gt; 2012 &gt; 01 &gt; E-book-publishi"/>
 </node>
+<node CREATED="1346757617358" ID="ID_1113913534" MODIFIED="1346757624308" TEXT="E-Book-Reader-Modelle (Tests)">
+<node CREATED="1346757626896" ID="ID_1212629702" LINK="http://www.heise.de/newsticker/meldung/Sonys-E-Book-Reader-PRS-T2-im-Kurztest-1695457.html" MODIFIED="1346757626896" TEXT="heise.de &gt; Newsticker &gt; Meldung &gt; Sonys-E-Book-Reader-PRS-T2-im-Kurztest-1695457"/>
+</node>
 </node>
 <node CREATED="1304454949478" FOLDED="true" ID="ID_649213152" MODIFIED="1315479289332" POSITION="right" TEXT="Zukunft">
 <icon BUILTIN="full-5"/>
@@ -346,7 +349,7 @@
 <node CREATED="1304599260891" ID="ID_1508256186" LINK="http://sigildev.blogspot.com/2011/02/analysis-of-epub3-and-uh-bit-more.html" MODIFIED="1304599260891" TEXT="sigildev.blogspot.com &gt; 2011 &gt; 02 &gt; Analysis-of-epub3-and-uh-bit-more"/>
 </node>
 </node>
-<node CREATED="1304765439292" ID="ID_147862728" MODIFIED="1304765445475" POSITION="left" TEXT="LaTeX Beamer Infos">
+<node CREATED="1304765439292" FOLDED="true" ID="ID_147862728" MODIFIED="1346757603870" POSITION="left" TEXT="LaTeX Beamer Infos">
 <node CREATED="1304765453082" ID="ID_133804559" LINK="http://www2.informatik.hu-berlin.de/~mischulz/beamer.html" MODIFIED="1304765453082" TEXT="www2.informatik.hu-berlin.de &gt; Mischulz &gt; Beamer"/>
 </node>
 </node>
