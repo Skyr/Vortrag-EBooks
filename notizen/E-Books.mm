@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1303468075098" ID="Freemind_Link_1032927763" MODIFIED="1304454948409" STYLE="fork" TEXT="E-Books">
+<node CREATED="1303468075098" ID="Freemind_Link_1032927763" MODIFIED="1351685253630" STYLE="fork" TEXT="E-Books">
 <node COLOR="#669900" CREATED="1303468111079" FOLDED="true" HGAP="27" ID="_" MODIFIED="1346757598712" POSITION="right" TEXT="Hardware/Technologien" VSHIFT="-37">
 <icon BUILTIN="full-1"/>
 <node CREATED="1304026582021" ID="Freemind_Link_467451108" MODIFIED="1304026585051" TEXT="Display">
@@ -283,7 +283,7 @@
 <node CREATED="1304011701548" ID="ID_582881896" LINK="http://www.gizmodo.de/2011/03/01/26jahrige-verdient-millionen-mit-kindle-buchern.html" MODIFIED="1304011701548" TEXT="gizmodo.de &gt; 2011 &gt; 03 &gt; 01 &gt; 26jahrige-verdient-millionen-mit-kindle-buchern"/>
 <node CREATED="1322125818549" ID="ID_1973175521" LINK="http://www.heise.de/newsticker/meldung/libri-de-verkauft-mehr-E-Books-als-Taschenbuecher-1383920.html" MODIFIED="1322125818549" TEXT="heise.de &gt; Newsticker &gt; Meldung &gt; Libri-de-verkauft-mehr-E-Books-als-Taschenbuecher-1383920"/>
 </node>
-<node CREATED="1304012112740" FOLDED="true" ID="Freemind_Link_1283426028" MODIFIED="1304771748284" TEXT="DRM">
+<node CREATED="1304012112740" ID="Freemind_Link_1283426028" MODIFIED="1354543760323" TEXT="DRM">
 <node CREATED="1303887437665" ID="ID_1514939015" LINK="http://www.thebuzzmedia.com/wp-content/uploads/2010/02/why-people-pirate-movies-steps-to-watching-video.jpg" MODIFIED="1303887437665" TEXT="thebuzzmedia.com &gt; Wp-content &gt; Uploads &gt; 2010 &gt; 02 &gt; Why-people-pirate-movies-steps-to-watching-video"/>
 <node CREATED="1304011376008" ID="Freemind_Link_1218266141" LINK="https://www.eff.org/deeplinks/2010/12/2010-e-book-buyers-guide-e-book-privacy" MODIFIED="1304011376008" TEXT="https://www.eff.org/deeplinks/2010/12/2010-e-book-buyers-guide-e-book-privacy"/>
 <node CREATED="1304011406420" ID="Freemind_Link_60451961" LINK="https://apprenticealf.wordpress.com/2011/01/13/ebooks-formats-drm-and-you-&#x2014;-a-guide-for-the-perplexed/" MODIFIED="1304011406420" TEXT="https://apprenticealf.wordpress.com/2011/01/13/ebooks-formats-drm-and-you-&#x2014;-a-guide-for-the-perplexed/"/>
@@ -298,6 +298,9 @@
 <node CREATED="1304754401944" ID="ID_21475081" MODIFIED="1304754412812" TEXT="Cory Doctorow - eBooks">
 <node CREATED="1304754413679" ID="ID_185211924" LINK="http://vimeo.com/10457689" MODIFIED="1304754413679" TEXT="vimeo.com &gt; 10457689"/>
 <node CREATED="1304754527732" ID="ID_1212815471" LINK="http://craphound.com/?p=2758" MODIFIED="1304754527732" TEXT="craphound.com &gt;  ? ..."/>
+</node>
+<node CREATED="1354543769029" ID="ID_112538521" MODIFIED="1354543780421" TEXT="EFF: ebook reader privacy (2012)">
+<node CREATED="1354543780981" ID="ID_422981161" LINK="https://www.eff.org/pages/reader-privacy-chart-2012" MODIFIED="1354543780981" TEXT="https://www.eff.org/pages/reader-privacy-chart-2012"/>
 </node>
 </node>
 <node CREATED="1304754466750" FOLDED="true" ID="ID_1396484150" MODIFIED="1304754493170" TEXT="Anteil Herstellungskosten Print: 12%">
@@ -322,8 +325,10 @@
 <node CREATED="1327574750357" ID="ID_1709677088" MODIFIED="1327574760647" TEXT="&quot;ebooks are not easy&quot;: Amazon zahlt Autoren 34%">
 <node CREATED="1327574761660" ID="ID_1773637593" LINK="http://www.whattofix.com/blog/archives/2012/01/e-book-publishi.php" MODIFIED="1327574761660" TEXT="whattofix.com &gt; Blog &gt; Archives &gt; 2012 &gt; 01 &gt; E-book-publishi"/>
 </node>
-<node CREATED="1346757617358" ID="ID_1113913534" MODIFIED="1346757624308" TEXT="E-Book-Reader-Modelle (Tests)">
+<node CREATED="1346757617358" ID="ID_1113913534" MODIFIED="1346919614146" TEXT="E-Book-Reader-Modelle (Tests und Ank&#xfc;ndigungen)">
 <node CREATED="1346757626896" ID="ID_1212629702" LINK="http://www.heise.de/newsticker/meldung/Sonys-E-Book-Reader-PRS-T2-im-Kurztest-1695457.html" MODIFIED="1346757626896" TEXT="heise.de &gt; Newsticker &gt; Meldung &gt; Sonys-E-Book-Reader-PRS-T2-im-Kurztest-1695457"/>
+<node CREATED="1346919602845" ID="ID_767318601" LINK="http://www.heise.de/newsticker/meldung/E-Book-Reader-Kobo-Glo-Er-leuchtet-1701390.html" MODIFIED="1346919602845" TEXT="heise.de &gt; Newsticker &gt; Meldung &gt; E-Book-Reader-Kobo-Glo-Er-leuchtet-1701390"/>
+<node CREATED="1347005008134" ID="ID_1097649131" LINK="http://www.heise.de/newsticker/meldung/Amazons-Kindle-Leuchtender-E-Book-Reader-Tablet-in-HD-1702052.html" MODIFIED="1347005008134" TEXT="heise.de &gt; Newsticker &gt; Meldung &gt; Amazons-Kindle-Leuchtender-E-Book-Reader-Tablet-in-HD-1702052"/>
 </node>
 </node>
 <node CREATED="1304454949478" FOLDED="true" ID="ID_649213152" MODIFIED="1315479289332" POSITION="right" TEXT="Zukunft">
